@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="gardening, landscaping, Dorset">
+    <meta name="description" content="Business page for Man With a Spade">
+
+<!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet"> <!-- font-family: 'Acme', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Questrial&display=swap" rel="stylesheet"> <!-- font-family: 'Questrial', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Roboto&display=swap" rel="stylesheet"> <!-- font-family: 'Roboto', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <!-- font-family: 'Raleway', sans-serif; -->
+    <title>Man With a Spade</title>
+
+</head>
+
+<body>
+<!-- NAVIGATION -->
+<div id="wrapper">
+    <section>
+        <nav class="navbar">
+            <img  id="logo" src="./MWSLOGO6_90.png" alt="company logo">
+
+            <div class="brand-title">Man with a Spade</div>
+        
+            <!-- HAMBURGER -->
+            <a href="#" class="toggle-button">
+                <img class="svgToggle" src="https://img.icons8.com/ios-glyphs/30/ffffff/menu--v1.png"/></a>
+            <div class="navbar-links">
+                
+                <ul>
+                    <li><a id="nav-about" href="#about">About</a></li>
+                    <li><a id="nav-services" href="#services-header">Services</a></li>
+                    <li><a id="nav-contact" href="#contact">Contact</a></li>
+                    <li><a id="nav-faq" href="#faqheader">FAQ</a></li>
+                </ul> 
+            </div>
+        </nav>
+    </section>  
+
+    <!-- HEADLINE -->
+    <section>
+        <div class="headline">
+            <h1>Bridport-Based Gardening and Landscaping</h1>
+        </div>
+    </section>
+
+<!-- SHOWCASE CAROUSEL -->
+    <section>
+        <div class="carousel">
+            <button class="carousel__button carousel__button--left is-hidden">
+                <img src="https://img.icons8.com/ios/50/ffffff/circled-chevron-left.png"/>
+            </button>
+                <div class="carousel__track-container">
+                    <ul class="carousel__track">
+                        <li class="carousel__slide current-slide">
+                            <img class="carousel__image" src="img/pond10.jpg" alt="">
+                        </li>
+                        <li class="carousel__slide">
+                            <img class="carousel__image" src="img/pond8.jpg" alt="">
+                        </li>
+                        <li class="carousel__slide">
+                            <img class="carousel__image" src="img/pond7.jpg" alt="">
+                        </li>
+                        <li class="carousel__slide">
+                            <img class="carousel__image" src="img/pond6.jpg" alt="">
+                        </li>
+                        <li class="carousel__slide">
+                            <img class="carousel__image" src="img/pond11.jpg" alt="">
+                        </li>
+                        <li class="carousel__slide">
+                            <img class="carousel__image" src="img/pond12.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            <button class="carousel__button carousel__button--right">
+                <img src="https://img.icons8.com/ios/50/ffffff/circled-chevron-right.png"/>
+            </button>
+
+            <div class="carousel__nav">
+                <button class="carousel__indicator current-slide"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section>
+        <div class="body-text" id="about">
+            <h2 class="body-title">About</h2>
+            <p class="body-text">Hi! I'm Michael, the owner, operator, and sole employee of Man With a Spade. Man With a Spade started in 2013 as a small side business of mine based on my long-time passion for gardening. 9-years later and it's my sole business and I devote all of time to it. I specialise in wildlife gardening</p>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <!-- SOLUTION FOR NAV BUG: 
+    Put content in nested container which doesn't contain header
+    Adjust top margin of new nested container 
+    Adjust padding top of header
+    -->
+    <section id="services" >
+        <div class="all-services-container">
+            <h2 id="services-header">
+                Services
+            </h2>
+                <div id="services-container">
+                    
+                    <!-- PONDS -->
+                    <div class="individual-service-containers" id="ponds-container">
+                        <h3 id="ponds-header">Ponds</h3>
+                        <!-- <img id="services-img-1" src="./img/services1.jpg" alt=""> -->
+                        
+                        <p id="ponds-p">Ponds are a great addition to any garden. They make the perfect centerpiece and can be as simple or eleaborate as you can imagine. They promote biodiversity and bring a lot of character to your garden ⛲</p>
+                    </div>
+
+                    <!-- FLOWERBEDS -->
+                    <div class="individual-service-containers" id="flowerbeds-container">
+                        <h3 id="flowerbeds-header">Flowerbeds</h3>
+                        <!-- <img id="flowerbeds-img-1" src="./img/flowerbed1.jpg" alt=""> -->
+                        
+                        <p id="flowerbeds-p">Flowerbeds can be the centrepiece of a garden or an accent used to bring out the best features of the centrepiece and are essential for any beautiful garden 🌻</p>
+                    </div>
+
+                    <!-- LAWN MOWING -->
+                    <div class="individual-service-containers" id="mowing-container">
+                        <h3 id="mowing-header">Mowing</h3>
+                        <!-- <img id="mowing-img-1" src="./img/mowing1.jpg" alt=""> -->
+                        
+                        <p id="mowing-p">Mowing is an essential part of regular garden maintenance. The mulch produced by regular mowing promotes garden fertility and is reabsorbed by the ground, leading to a healthier garden 🌳</p>
+                    </div>
+
+                    <!-- WEEDING -->
+                    <div class="individual-service-containers" id="weeding-container">
+                        <h3 id="weeding-header">Weeding</h3>
+                        <!-- <img id="weeding-img-1" src="./img/weeding.jpg" alt=""> -->
+                        
+                        <p id="weeding-p">Weeds are aggressive plants that can prevent you from growing what you want to grow and even take over entire gardens; which is why it's important to stay on top of them 💪</p>
+                    </div>
+
+                    <!-- MAINTENANCE -->
+                    <div class="individual-service-containers" id="maintenance-container">
+                        <h3 id="maintenance-header">Maintenance</h3>
+                        <!-- <img id="maintenance-img-1" src="./img/maintenance1.jpg" alt=""> -->
+                        
+                        <p id="maintenance-p">Regular maintenance is essential for a well-kept, healthy garden, but few of has have enough time to give our garden the time and attention that it deserves. Hiring a gardener to maintain your garden is the best thing you can do for your garden's health 👨‍⚕️</p>
+                    </div>
+
+                    <!-- DIGGING AND CLEARING -->
+                    <div class="individual-service-containers" id="digging-and-clearing-container">
+                        <h3 id="digging-and-clearing-header">Digging and Clearing</h3>
+                        
+                        <p id="digging-and-clearing-p">Want to reshape your garden or have some heavy stuff that you need taken away so you can enjoy your garden properly? Sounds like you need Man with a Spade 👨‍🌾</p>
+                    </div>
+
+                    <!-- WILDLIFE GARDENING -->
+                    <div class="individual-service-containers" id="wildlife-gardening-container">
+                        <h3 id="wildlife-gardening-header">Wildlife Gardening</h3>
+                        
+                        <p id="wildlife-gardening-p">Wildlife gardening encourages biodiversity and protects endangered species while bringing color and life to your garden. You can read more about it <a id="wildlife-trust-link" target="_blank" href="https://www.wildlifetrusts.org/gardening">here</a> 🦋</p>
+                    </div>
+
+                    <!-- GARDEN RESTORATIONS -->
+                    <div class="individual-service-containers" id="garden-restorations-container">
+                        <h3 id="garden-restorations-header">Garden Restorations</h3>
+                        
+                        <p id="garden-restorations-p">Have a dream garden in mind but don't know how or where to start? Getting in touch is the first to turn your dream garden into reality ✨</p>
+                    </div>
+
+
+                    <!-- OTHER SERVICES -->
+                    <h3 id="other-services-header">Service not mentioned?</h3>
+                    <p id="other-services-p">Not all services offered are mentioned here. If you  require a service that isn't mentioned, please <a id="other-service-contact" href="#contact">contact</a> me to discuss your needs.
+                    </p>
+                </div>
+         </div>
+    </section>
+     
+    
+    <section id="faq">
+        <div>
+
+        </div>
+    </section>
+    
+    
+    
+    <!-- SOLUTION FOR NAV BUG: 
+    Put content in nested container which doesn't contain header
+    Adjust top margin of new nested container 
+    Adjust padding top of header
+    -->
+    <section id="contact">
+            <div id="contact-container">
+                <h3 id="contact-header">Contact me</h3>
+                    <div id="flex-container">
+                        <div id="email-container">
+                            <img src="./img/emailIcon.png" alt="email icon" id="email-icon">
+                            <p id="by-email">
+                                By email:
+                            </p>
+                                <a id="email" href="mailto:m.chamberlain65@yahoo.com">m.chamberlain65@yahoo.com</a>
+                        </div>
+                        <div id="phone-container">
+                            <img src="/img/phoneIcon.png" alt="phone icon" id="phone-icon">
+                            <p id="by-phone">
+                                By phone:
+                            </p>
+                            <p id="phone-number">
+                                07425-177-007
+                            </p>
+                        </div>
+                    </div>
+            </div>
+    </section>
+
+
+<!-- FAQ -->
+    <section id="faq">
+        
+        
+        <h3 id="faqheader" >FAQ</h3>
+        
+        
+        <div id="faqcontainer">
+            
+            <div id="accordion-container">
+                <button class="accordion">What are your prices?</button>
+                <div class="panel">
+                    <p>I don't have any fixed prices as every project is unique. Please contact me to discuss your needs and get for a free quote! </p>
+                </div>
+        
+                <button class="accordion">What areas do you service?</button>
+                <div class="panel">
+                    <p>I only service the <a href="#map" id="faq_bridport_link">Bridport</a> area.</p>
+                </div>
+        
+                <button class="accordion">Do you do long-term maintenance?</button>
+                <div class="panel">
+                    <p>Yes! If you're looking for an experienced long-term gardener, please get in touch (:</p>
+                </div>
+            </div>
+        </div>
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+    </section>
+            
+
+            
+
+              
+            
+            
+        
+
+  
+    </section>
+    
+<!-- FOOTER  -->
+    <section>
+        <footer>
+            
+        </footer>
+    </section> 
+</div>
+
+<!-- BACK TO TOP BUTTON -->
+<section id="back-to-top">
+    <a href="#" class="top">Back to Top ↑</a>
+</section>
+
+
+
+
+<script src="./script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr6S84y2l-dhcHrjW0FVkondyjqRsYHV8&callback=initMap"
+async defer></script>
+</body>
+
+
+
+</html>
