@@ -906,7 +906,9 @@ h3{
     }
 
     .brand-title{
-        margin: -4.5% 20% 3% 34%;
+        margin: -4.5% -60% 20% 34%;
+        color: blue;
+
     }
 
     .navbar-links ul{ /* hamburger links background */
@@ -938,8 +940,9 @@ h3{
 
 @media (max-width: 566px) {
     .brand-title{
-        margin: -15% 20% 100% 25%;
+        margin: -40% 20% 0% 25%;
         width: 100%;
+        color: red;
     }
 }
 
