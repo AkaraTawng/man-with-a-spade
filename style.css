@@ -118,7 +118,7 @@ body {
 
 .toggle-button{
     position: absolute;
-    top: 1rem;
+    top: 22px;
     right: 2.3rem;
     display: none; /*doesn't display by default - has to be triggered on*/
     flex-direction: column;
@@ -891,6 +891,8 @@ h3{
 @media (max-width: 820px) {
     .toggle-button{
         display: flex;
+        margin: 0px 0 -1% 0;
+        
     }
    
 
@@ -906,8 +908,8 @@ h3{
     }
 
     .brand-title{
-        margin: -4.5% -60% 20% 34%;
-        color: blue;
+        margin: -34px 0 22px 33%;
+        /* color: rgb(10, 10, 238); */
 
     }
 
@@ -938,17 +940,21 @@ h3{
     }
 }
 
-@media (max-width: 566px) {
+@media (max-width: 585px) {
     .brand-title{
-        margin: -40% 20% 0% 25%;
+        margin: -34px 0 22px 33%;
         width: 100%;
-        color: red;
+        /* color: red; */
+    }
+
+    .toggle-button{
+        margin: 6px 0 -1% 0;
     }
 }
 
 @media (max-width: 583px) {
     .brand-title{
-        margin: -7% 20% 100% 25%;
+        margin: -40px 0 22px 33%;
         width: 100%;
     }
 }
@@ -957,8 +963,8 @@ h3{
 
 @media (max-width: 533px) {
     .brand-title{
-        margin: -7.5% 20% 5% 25%;
-        width: 100%;
+        margin: -40px 0 22px 23%;
+        /* color: blueviolet; */
     }
 
     .navbar{ /* navbar background */
