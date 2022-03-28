@@ -33,7 +33,7 @@ body {
     background-color: var(--green);
     color: var(--yellow);
     position: fixed;
-    width: 100%;
+    width: 100vw;
     z-index:1;
 }
 
@@ -967,12 +967,10 @@ h3{
         /* color: blueviolet; */
     }
 
-    .navbar{ /* navbar background */
+    .navbar-links ul{ /* hamburger links background */
+        width: 100%;
         flex-direction: column;
-        align-items: flex-start;
-        height: 5.1rem;
-        padding-bottom: ;
-        
+        background-color: var(--green);
     }
 
 }
