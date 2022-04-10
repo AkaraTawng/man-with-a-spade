@@ -240,7 +240,7 @@ body {
     display: flex; /* enables justify content center */
     justify-content: center;
     padding: 0.1rem 0; /* y-axis indicator paddding */
-    margin-top: -7rem; /* Moves dots closer to image on y-axis */
+    margin-top: -4rem; /* Moves dots closer to image on y-axis */
 }
 
 .carousel__indicator{
