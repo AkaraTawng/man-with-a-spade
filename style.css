@@ -281,7 +281,8 @@ body {
     width: 8%;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left: 34.8rem;
+    /* margin-left: 34.8rem; pending deletion*/
+    margin-left: 46%;
 }
 
 
@@ -292,6 +293,11 @@ body {
     font-weight: 1;
     padding:0 2rem 3rem 2rem;
     text-align: justify;
+}
+
+.body-text-transform-spans{
+    color: var(--yellow);
+    font-weight: 600;
 }
 
 h3{
@@ -952,6 +958,11 @@ h3{
         width: 72%;
         margin-right: -2rem;
     }
+
+    .body-text{ /* about paragraph */
+        padding:0 10% 3rem 6%;
+        text-align: justify;
+    }
 }
 
 
@@ -965,6 +976,26 @@ h3{
     }
 
 
+
+}
+
+@media (max-width: 740px) {
+    .body-title {
+        color: white;
+        margin-right: 15%;
+    }
+
+    .body-text{ /* about paragraph */
+        padding:0 10% 3rem 6%;
+        margin-right:14%;
+        text-align: justify;
+        color: white;
+    }
+
+    .body-title::after{
+        width: 15%;
+        margin-left: 43%;
+    }
 
 }
 
@@ -1003,6 +1034,26 @@ h3{
     .headline h1 {
         /* color: blue; */
         margin-left: -13rem;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .body-title {
+        color: rgb(255, 255, 255);
+        margin-right: 26%;
+    }
+
+    .body-text{ /* about paragraph */
+        padding:0 10% 3rem 3.5%;
+        margin-right:20%;
+        text-align: justify;
+        color: white;
+    }
+
+    .body-title::after{
+        width: 19%;
+        margin-left: 42%;
     }
 
 }
