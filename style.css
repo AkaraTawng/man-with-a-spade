@@ -160,7 +160,8 @@ body {
     'Raleway', sans-serif;
     font-weight: 1;
     margin-top: 8.5rem;
-    margin-bottom:4rem ;
+    margin-bottom:4rem;
+    /* width: 90%; */
 
 }
 
@@ -945,10 +946,25 @@ h3{
     }
 }
 
+@media (max-width: 830px){
+    .headline h1 {
+        /* color: red; */
+        width: 72%;
+        margin-right: -2rem;
+    }
+}
+
+
 @media (max-width: 713px){
     .carousel{
         display: none;
     }
+
+    .headline h1 {
+        margin-right: 10rem;
+    }
+
+
 
 }
 
@@ -984,5 +1000,10 @@ h3{
         flex-direction: column;
         background-color: var(--green);
     }
+    .headline h1 {
+        /* color: blue; */
+        margin-left: -13rem;
+    }
 
 }
+
