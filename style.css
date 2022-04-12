@@ -223,7 +223,7 @@ body {
 
 .carousel__button img:active{
     width: 40px; 
-    background-color: rgba(211, 197, 4, 0.6);
+    background-color: rgba(211, 197, 4, 0.5);
     border-radius: 50%;
 }
 
@@ -370,6 +370,7 @@ h3{
     background-attachment: fixed;
     height: 30rem;
     padding-top: 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 /* PONDS */
@@ -521,7 +522,7 @@ h3{
 
 #wildlife-trust-link:hover{
     color: rgba(253, 226, 69, 0.9);
-    border-bottom: 2px solid rgba(8, 209, 18, 0.6);
+    border-bottom: 2px solid rgba(8, 209, 18, 0.5);
     transition: color 0.3s ease;
  
 }
@@ -564,7 +565,7 @@ h3{
     width: 35%;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left: 6.8rem;
+    margin-left: 5.8rem;
 }
 
 #other-services-p{
@@ -589,7 +590,7 @@ h3{
 
 #other-service-contact:hover{
     color: rgba(253, 226, 69, 0.9);
-    border-bottom: 2px solid rgba(8, 209, 18, 0.6);
+    border-bottom: 2px solid rgba(8, 209, 18, 0.5);
     transition: color 0.2s ease;
  
 }
@@ -611,7 +612,7 @@ h3{
 #contact-header{
     margin-left: 32rem;
     margin-top: 11rem;
-    padding-top: 6.5rem;
+    padding-top: 5.5rem;
 }
 
 #contact-header::after{
@@ -652,7 +653,7 @@ h3{
 #email-icon{
     width: 4rem;
     margin-bottom: 3rem;
-    margin-top: -6.5rem;
+    margin-top: -5.5rem;
     margin-left:10.2rem;
 }
 
@@ -968,6 +969,10 @@ h3{
         padding-left:10%;
     }
 
+    #services-header{
+        margin-left: 38%;
+    }
+
     #ponds-header{
         margin-left: 42%;
     }
@@ -1000,7 +1005,10 @@ h3{
     margin-left: 20%;
 }
 
+#back-to-top {
+    right: 10px;
 }
+
 
 
 
@@ -1012,7 +1020,7 @@ h3{
     }
 
     .body-text{ /* about paragraph */
-        padding:0 10% 3rem 6%;
+        padding:0 10% 3rem 5%;
         text-align: justify;
     }
 }
@@ -1033,6 +1041,138 @@ h3{
 
 }
 
+@media (max-width: 750px){
+    #ponds-header{
+        margin-left: 42%;
+        /* color: red; */
+    }
+
+    #services-header{
+        margin-left: 17%;
+        
+    }
+
+    .all-services-container p{
+        /* color: rgb(241, 21, 157); */
+        width: 45%;
+        padding-left:0.9%;
+        text-align: start;
+        word-spacing: 5px ;
+    }
+
+    #ponds-header{
+        margin-left: 19%;
+    }
+
+    #ponds-p{
+        margin: 0 2rem 0 3rem;
+        font-size: 1.6rem;
+    }
+
+    #ponds-container{
+        height: 36rem;
+    }
+
+    
+    #flowerbeds-header{
+        margin-left: 10%;
+    }
+
+    #flowerbeds-p{
+        margin: 0 0 0 3.5rem;
+    }
+
+    #flowerbeds-container{
+        height: 33rem;
+    }
+
+    #mowing-header{
+        margin-left: 16%;
+    }
+
+    #mowing-p{
+        margin: 0 0 0 5.3%;
+    }
+
+    #mowing-container{
+        height: 35rem;
+    }
+    
+
+    #weeding-header{
+        margin-left: 14%;
+   }
+
+   #weeding-p{
+    margin: 0 0 0 5.3%;
+     
+}
+
+#weeding-container{
+    height: 34rem;
+}
+
+
+   #maintenance-header{
+    margin-left: 9.5%;
+}
+
+#maintenance-p{
+    margin: 0 0 0 5.4%;
+}
+
+#maintenance-container{
+    height: 39rem;
+}
+
+#digging-and-clearing-header{
+    margin-left: 4.5%;
+    font-size: 2.7rem;
+    /* width: 60%; */
+}
+
+
+#digging-and-clearing-p{
+    margin: 0 0 0 6%;
+
+}
+
+#digging-and-clearing-container{
+    height: 32rem;
+}
+
+#wildlife-gardening-header{
+    margin-left: 3%;
+    font-size: 3.2rem;
+}
+
+#wildlife-gardening-p{
+    margin: 0 0 0 6%;
+}
+
+
+#wildlife-gardening-container{
+    height: 32rem;
+}
+   
+#garden-restorations-header{
+    margin-left: 3.2%;
+    font-size: 2.9rem;
+
+}
+
+#garden-restorations-p{
+    margin: 0 2rem 0 3rem;
+
+}
+
+#garden-restorations-container{
+    height: 32rem;
+}
+
+
+}
+
 @media (max-width: 740px) {
     .body-title {
         color: white;
@@ -1040,7 +1180,7 @@ h3{
     }
 
     .body-text{ /* about paragraph */
-        padding:0 10% 3rem 6%;
+        padding:0 10% 3rem 5%;
         margin-right:14%;
         text-align: justify;
         color: white;
