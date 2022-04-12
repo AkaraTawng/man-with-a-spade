@@ -343,6 +343,8 @@ h3{
     
 }
 
+
+/* services subheaders shared styles */
 .all-services-container h3{
     margin-top: 6rem;
     margin-bottom: 3rem;
@@ -351,6 +353,8 @@ h3{
     font-family: 'Raleway', sans-serif;
 }
 
+
+/* services paragraphs shared styles */
 .all-services-container p{
     color: white;
     font-size: 1.6rem;
@@ -370,7 +374,7 @@ h3{
 
 /* PONDS */
 #ponds-header{
-    margin-left: 34rem;
+    margin-left: 45%;
 }
 
 #ponds-container{
@@ -404,7 +408,7 @@ h3{
 
 
 #flowerbeds-header{
-    margin-left: 31rem;
+    margin-left: 39%;
 
 }
 
@@ -425,7 +429,7 @@ h3{
 }
 
 #mowing-header{
-    margin-left: 34rem;
+    margin-left: 43%;
 }
 
 #mowing-p{
@@ -445,7 +449,7 @@ h3{
 
 
 #weeding-header{
-     margin-left: 34rem;
+     margin-left: 42%;
 }
 
 #weeding-p{
@@ -465,7 +469,7 @@ h3{
 
 
 #maintenance-header{
-    margin-left: 31rem;
+    margin-left: 39%;
 }
 
 #maintenance-p{
@@ -481,7 +485,7 @@ h3{
 }
 
 #digging-and-clearing-header{
-    margin-left: 24rem;
+    margin-left: 29%;
 }
 
 #digging-and-clearing-p{
@@ -498,7 +502,7 @@ h3{
 }
 
 #wildlife-gardening-header{
-    margin-left: 24rem;
+    margin-left: 31%;
 }
 
 #wildlife-gardening-p{
@@ -531,8 +535,13 @@ h3{
     background-attachment: fixed;    
 }
 
+#digging-and-clearing-span{
+    color: var(--yellow);
+    font-weight: 600;
+}
+
 #garden-restorations-header{
-    margin-left: 24rem;
+    margin-left: 32%;
 }
 
 #garden-restorations-p{
@@ -952,6 +961,49 @@ h3{
     }
 }
 
+@media (max-width: 860px){
+    .all-services-container p{
+        /* color: rgb(241, 21, 157); */
+        width: 77%;
+        padding-left:10%;
+    }
+
+    #ponds-header{
+        margin-left: 42%;
+    }
+
+    #flowerbeds-header{
+        margin-left: 30%;
+    }
+
+    #mowing-header{
+        margin-left: 38%;
+    }
+
+    #weeding-header{
+        margin-left: 34%;
+   }
+
+   #maintenance-header{
+    margin-left: 32%;
+}
+
+#digging-and-clearing-header{
+    margin-left: 19%;
+}
+
+#wildlife-gardening-header{
+    margin-left: 21%;
+}
+   
+#garden-restorations-header{
+    margin-left: 20%;
+}
+
+}
+
+
+
 @media (max-width: 830px){
     .headline h1 {
         /* color: red; */
@@ -964,6 +1016,8 @@ h3{
         text-align: justify;
     }
 }
+
+
 
 
 @media (max-width: 713px){
