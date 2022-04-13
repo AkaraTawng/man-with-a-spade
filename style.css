@@ -565,7 +565,7 @@ h3{
     width: 35%;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left: 5.8rem;
+    margin-left: 16%;
 }
 
 #other-services-p{
@@ -578,11 +578,9 @@ h3{
 #other-service-contact{
     cursor: pointer;
     text-decoration: none;
-    font-weight: bold;
-    
-    
-    
+    font-weight: bold;    
 }
+
 #other-service-contact:visited{
     /* color: rgba(102, 207, 4, 0.3); */
     color: rgb(255, 255, 255);
@@ -599,8 +597,10 @@ h3{
 
 /* CONTACT */
 #contact-container{
-    height: 50rem;
+    /* remove margin top */
+    height: 50rem; 
     margin-bottom: -5rem;
+    margin-top: 50rem;
 }
 
 #flex-container{
@@ -901,6 +901,21 @@ h3{
     text-decoration: none;
   }
 
+
+  @media (max-width: 1000px){
+    #other-services-header{
+        margin-left: 15%;
+        margin-top: 9rem;
+        
+    }
+    
+    #other-services-header::after{
+        margin-left: 18%;
+    }
+    
+  }
+
+
   @media (max-width: 968px) {
     .carousel__button--left /*moves button out from behind picture*/ {
         margin-left:8%;
@@ -1045,6 +1060,18 @@ h3{
     #ponds-header{
         margin-left: 42%;
         /* color: red; */
+    }
+
+    #other-services-header{
+        /* color: red; */
+        margin-left: 2%;
+        font-size: 2.6rem;
+        
+    }
+
+    
+    #other-services-header::after{
+        margin-left: 8%;
     }
 
     #services-header{
