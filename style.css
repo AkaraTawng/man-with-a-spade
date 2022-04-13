@@ -610,7 +610,7 @@ h3{
 }
 
 #contact-header{
-    margin-left: 32rem;
+    margin-left: 41%;
     margin-top: 11rem;
     padding-top: 5.5rem;
 }
@@ -622,7 +622,7 @@ h3{
     width: 20%;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left: 2.9rem;
+    margin-left: 7%;
     margin-bottom: 5rem;
 }
 /* 
@@ -921,6 +921,52 @@ h3{
         margin-left:8%;
     
     }
+    
+    #flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #contact-header{
+        margin-left: 38%;
+    }
+    
+    #contact-header::after{
+        width: 25%;
+        margin-left: 10%;
+    }
+    
+    #email-container{
+        width: 60%;
+        margin-left: 21%; 
+        margin-bottom: 5%;
+    }
+    
+    #email-icon{
+        margin-left:43%;
+    }
+    
+    #phone-icon{
+        margin-left: 40%;
+    }
+  
+    
+    #email{
+        margin-left: 6%;
+    }
+    
+    
+    
+    #phone-container{
+        width: 60%;
+        margin-left: 21%; 
+        margin-bottom: 5%;
+    }
+    
+    #phone-number{
+        margin-left: 14%;
+    }
+    
 
   }
 
@@ -1040,6 +1086,36 @@ h3{
     }
 }
 
+@media(max-width: 820px){
+  
+    #contact-header{
+        margin-left: 36%;
+    }
+    
+    #contact-header::after{
+        margin-left: 12%;
+    }
+    
+   
+    
+    #email-icon{
+        margin-left:42%;
+    }
+    
+    #phone-icon{
+        margin-left: 36%;
+    }
+  
+    
+    #email{
+        margin-left: 2%;
+    }
+    
+    #phone-number{
+        margin-left: 1%;
+    }
+}
+
 
 
 
@@ -1051,12 +1127,10 @@ h3{
     .headline h1 {
         margin-right: 10rem;
     }
-
-
-
 }
 
 @media (max-width: 750px){
+
     #ponds-header{
         margin-left: 42%;
         /* color: red; */
@@ -1218,6 +1292,51 @@ h3{
         margin-left: 43%;
     }
 
+}
+
+@media(max-width: 670px){
+    #contact-header{
+        margin-left: 14%;
+    }
+
+
+    
+    #contact-header::after{
+        margin-left: 6%;
+    }
+    
+   #email-container{
+       margin-left: 5%;
+       width: 50%;
+   }
+    
+    #email-icon{
+        margin-left:40%;
+    }
+    
+    #phone-icon{
+        margin-left: 33%;
+    }
+  
+    #by-phone{
+        margin-left: -22%;
+        margin-right: -28%;
+    }
+    
+    #email{
+        margin-left: -5%;
+        font-size: 1.6rem;
+    }
+    
+    #phone-container{
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    #phone-number{
+        margin-left: -30%;
+        white-space: nowrap;
+    }
 }
 
 @media (max-width: 585px) {
