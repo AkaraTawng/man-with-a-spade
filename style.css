@@ -723,7 +723,7 @@ h3{
 } */
 
 #faqheader{
-    margin-left: 35rem;
+    margin-left: 47%;
     padding-top: 6rem;
 }
 
@@ -734,7 +734,7 @@ h3{
     width: 9%;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left:0.9rem;
+    margin-left:2.5%;
     margin-bottom: 5rem;
 }
 
@@ -917,6 +917,24 @@ h3{
 
 
   @media (max-width: 968px) {
+
+
+    #faqheader::after{
+        margin-left:3.6%;
+    }
+
+    .accordion::before{
+        margin-left: 4.5%;
+    }
+
+    #accordion-container button:nth-of-type(2)::before{
+        width: 32%;
+    }
+    
+    #accordion-container button:nth-of-type(3)::before{
+        width: 43%;
+    }
+
     .carousel__button--left /*moves button out from behind picture*/ {
         margin-left:8%;
     
@@ -1087,6 +1105,35 @@ h3{
 }
 
 @media(max-width: 820px){
+
+    #faqheader{
+        margin-left: 44%;
+    }
+
+    #accordion-container{
+        /* margin-top: 10rem; */
+        margin-left: 14%;
+        width: 70%;
+        border: 2px solid white;
+    }
+    
+
+    #faqheader::after{
+        margin-left:5%;
+    }
+
+    .accordion::before{
+        margin-left: 4.5%;
+        width: 36%;
+    }
+
+    #accordion-container button:nth-of-type(2)::before{
+        width: 47%;
+    }
+    
+    #accordion-container button:nth-of-type(3)::before{
+        width: 65%;
+    }
   
     #contact-header{
         margin-left: 36%;
@@ -1275,6 +1322,7 @@ h3{
 }
 
 @media (max-width: 740px) {
+
     .body-title {
         color: white;
         margin-right: 15%;
@@ -1294,7 +1342,49 @@ h3{
 
 }
 
+@media(max-width: 690px){
+    #faqheader{
+        /* color: red; */
+        margin-left: 25%;
+        margin-top: 5rem;
+    }
+
+    .accordion{
+        padding: 0 2% 0 2%;
+    }
+
+    #accordion-container{
+        /* margin-top: 10rem; */
+        margin-left: 3%;
+        width: 54.5%;
+        border: 2px solid white;
+    }
+
+    #faqheader::after{
+        margin-left:2.5%;
+    }
+
+    .accordion::before{
+        margin-left: 4.5%;
+        width: 47%;
+    }
+
+    #accordion-container button:nth-of-type(2)::before{
+        width: 63%;
+        margin-left: 6%;
+    }
+    
+    #accordion-container button:nth-of-type(3)::before{
+        width: 50%;
+        margin-left:4%;
+        margin-top: 2%;
+    }
+  
+}
+
+
 @media(max-width: 670px){
+
     #contact-header{
         margin-left: 14%;
     }
