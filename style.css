@@ -850,8 +850,8 @@ h3{
 /* MAP */
 
 #map {
-    height: 30rem;
-    width: 50rem;
+    height: 80%;
+    width: 60%;
     margin: auto;
     border-radius: 20px;
     margin-bottom: 5rem;
@@ -1174,6 +1174,7 @@ h3{
 }
 
 @media (max-width: 740px) {
+
     .body-title {
         color: white;
         margin-right: 15%;
@@ -1193,7 +1194,36 @@ h3{
 
 }
 
+@media(max-width: 720px){
+    #map {
+        width: 50%;
+        margin-left: 15%;
+      }
+
+      .map-container {
+        height: 41rem;
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    }
+      
+
+      
+}
+
 @media (max-width: 585px) {
+
+    #map {
+        width: 45%;
+        height: 70%;
+        margin-left: 5%;
+      }
+
+      .map-container {
+        height: 47rem;
+        padding-top: 4rem;
+    }
+   
+
     .brand-title{
         margin: -34px 0 22px 33%;
         width: 100%;
