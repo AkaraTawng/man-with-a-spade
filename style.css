@@ -494,6 +494,10 @@ h3{
 
 }
 
+br.digging-clearing-break{
+    display: none;
+}
+
 /* WILDLIFE GARDENING */
 #wildlife-gardening-container{
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(/img/wildlifegardening.jpg);
@@ -686,8 +690,6 @@ h3{
     border: solid 1px white ;
     padding: 8rem 8.7rem 8rem 8.7rem;
     background-color: rgba(0,0,0,0.2);
-
-
 }
 
 #by-phone{
@@ -717,10 +719,6 @@ h3{
     height: 25rem;
     margin-top: 1rem;
 }
-
-/* #faqcontainer div:nth-child(2){
-    border-top: -2px;
-} */
 
 #faqheader{
     margin-left: 47%;
@@ -1091,17 +1089,106 @@ h3{
 
 
 
+/* 733 complete */
 @media (max-width: 830px){
     .headline h1 {
-        /* color: red; */
         width: 72%;
         margin-right: -2rem;
     }
 
     .body-text{ /* about paragraph */
-        padding:0 10% 3rem 5%;
+        padding:0 10% 3rem 10%;
         text-align: justify;
     }
+
+    .carousel{
+        margin: -8rem 0 0 15%;
+    }
+
+    .carousel__button--left /*moves button out from behind picture*/ {
+        margin-left:6.5%;
+    }
+
+
+    #ponds-p{
+        margin: 0 2rem 0 3.5rem;
+        font-size: 1.6rem;
+    }
+
+    #flowerbeds-p{
+        margin: 0 2rem 0 3rem;
+    }
+
+    #weeding-p{
+        margin: 0 2rem 0 3rem;
+    }
+
+    #digging-and-clearing-header{
+        margin-left: 17%;
+    }
+
+    #wildlife-gardening-header{
+        margin-left: 20%;
+    }
+
+    #garden-restorations-header{
+        margin-left: 18%;
+    }
+
+    #contact-header{
+        margin-left: 36%;
+        margin-top: -35rem;
+    }
+
+    #contact-header::after{
+        width: 30%;
+    }
+    
+    #email{
+        margin-left: 2%;
+    }
+  
+    #phone-icon{
+        margin-left: 37%;
+    }
+    #phone-number{
+        margin-left: 2%;
+    }
+
+    #contact-container{
+        height: 60rem; 
+    }
+
+    #faqheader{
+        margin-left: 47%;
+        padding-top: 6rem;
+    }
+
+    #faqheader::after{
+        width: 14%;
+    }
+
+    #accordion-container{
+        margin-left: 8%;
+    }
+    
+    #other-services-header::after{
+        width: 47%;
+    }
+
+    #other-services-header{
+        margin-left: 12%;
+    }
+
+    #map {
+        height: 70%;
+        width: 70%;
+        margin: auto;
+        border-radius: 20px;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+      }
+    
 }
 
 @media(max-width: 820px){
@@ -1165,43 +1252,32 @@ h3{
 
 
 
-
+/* 672 complete */
 @media (max-width: 713px){
     .carousel{
         display: none;
     }
 
     .headline h1 {
-        margin-right: 10rem;
-    }
-}
-
-@media (max-width: 750px){
-
-    #ponds-header{
-        margin-left: 42%;
-        /* color: red; */
+        margin-right: 1%;
+        margin-top:10.5rem;
+        font-size: 4.4rem;
+        line-height: 140%;
     }
 
-    #other-services-header{
-        /* color: red; */
-        margin-left: 2%;
-        font-size: 2.6rem;
-        
-    }
-
-    
-    #other-services-header::after{
-        margin-left: 8%;
+    .body-text{ /* about paragraph */
+        padding:0 10% 3rem 0%;
+        text-align: justify;
+        margin-left: 5%;
+        width: 100%;
     }
 
     #services-header{
-        margin-left: 17%;
+        margin-left: 33%;
         
     }
 
     .all-services-container p{
-        /* color: rgb(241, 21, 157); */
         width: 45%;
         padding-left:0.9%;
         text-align: start;
@@ -1209,93 +1285,70 @@ h3{
     }
 
     #ponds-header{
-        margin-left: 19%;
+        margin-left: 37%;
     }
 
     #ponds-p{
-        margin: 0 2rem 0 3rem;
+        margin: 0 0 0 8%;
+        width: 85%;
         font-size: 1.6rem;
     }
 
-    #ponds-container{
-        height: 36rem;
-    }
-
-    
     #flowerbeds-header{
-        margin-left: 10%;
+        margin-left: 28%;
     }
 
     #flowerbeds-p{
-        margin: 0 0 0 3.5rem;
-    }
-
-    #flowerbeds-container{
-        height: 33rem;
+        margin: 0 0 0 12%;
+        width: 85%;
     }
 
     #mowing-header{
-        margin-left: 16%;
+        margin-left: 34%;
     }
 
     #mowing-p{
-        margin: 0 0 0 5.3%;
+        margin: 0 0 0 10%;
+        width: 85%;
     }
-
-    #mowing-container{
-        height: 35rem;
-    }
-    
 
     #weeding-header{
-        margin-left: 14%;
+        margin-left: 32%;
    }
 
    #weeding-p{
-    margin: 0 0 0 5.3%;
-     
+    margin: 0 0 0 7%;
+    width: 85%;
 }
-
-#weeding-container{
-    height: 34rem;
-}
-
 
    #maintenance-header{
-    margin-left: 9.5%;
+    margin-left: 27%;
 }
 
 #maintenance-p{
-    margin: 0 0 0 5.4%;
-}
-
-#maintenance-container{
-    height: 39rem;
+    margin: 0 0 0 8%;
+    width: 85%;
 }
 
 #digging-and-clearing-header{
-    margin-left: 4.5%;
-    font-size: 2.7rem;
-    /* width: 60%; */
+    margin-left: 12%;
+    font-size: 3.4rem;
 }
 
 
 #digging-and-clearing-p{
-    margin: 0 0 0 6%;
-
-}
-
-#digging-and-clearing-container{
-    height: 32rem;
+    margin: 0 0 0 9.5%;
+    width: 85%;
 }
 
 #wildlife-gardening-header{
-    margin-left: 3%;
+    margin-left: 18%;
     font-size: 3.2rem;
 }
 
 #wildlife-gardening-p{
-    margin: 0 0 0 6%;
+    margin: 0 0 0 8.5%;
+    width: 85%;
 }
 
 
@@ -1304,13 +1357,14 @@ h3{
 }
    
 #garden-restorations-header{
-    margin-left: 3.2%;
-    font-size: 2.9rem;
+    margin-left:15%;
+    font-size: 3.3rem;
 
 }
 
 #garden-restorations-p{
-    margin: 0 2rem 0 3rem;
+    margin: 0 0 0 8%;
+    width: 85%;
 
 }
 
@@ -1318,22 +1372,135 @@ h3{
     height: 32rem;
 }
 
+#other-services-header{
+    margin-left: 8%;
+    margin-top: 9rem;
+}
+
+#other-services-header::after{
+    width: 60%;
+    margin-left: 15%;
+}
+
+#other-services-p{
+    font-size: 1.6rem;
+    margin: 0 0 0 10%;
+    width: 80%;
+}
+
+#contact-header{
+    margin-left: 33%;
+}
+
+#contact-header::after{
+    width: 30%;
+    margin-left: 11%;
+    margin-bottom: 5rem;
+}
+
+#email-container{
+    /* color: blanchedalmond; */
+    height: 1rem;
+    padding: 8rem 2.6rem 8rem 2.6rem;
+    margin-left: 20%;
+
+
+}
+
+#email{
+    width: 40%;
+    margin-left: -9%;
+}
+
+#email-icon{
+    margin-left:42%;
+}
+
+#email{
+    color:blanchedalmond;
+    font-size: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+#phone-container{
+    /* color: blanchedalmond; */
+    color: white;
+    height: 1rem;
+    border: solid 1px white ;
+    padding: 8rem 0 8rem 8.7rem;
+    background-color: rgba(0,0,0,0.2);
+}
+
+#by-phone{
+    width: 100%;
+    margin-left: -23%;
+
+}
+
+#phone-number{
+    color:blanchedalmond;
+    font-size: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin-left: -10%;
+
+}
+
+#phone-icon{
+    margin-left: 18%;
+}
+
+#faqcontainer{
+    height: 25rem;
+    margin-top: 1rem;
+}
+
+#faqheader{
+    margin-left: 45%;
+    padding-top: 6rem;
+}
+
+#faqheader::after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 18%;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+    margin-left:2.5%;
+    margin-bottom: 5rem;
+}
+
+#accordion-container{
+    /* margin-top: 10rem; */
+    margin-left: 5%;
+    width: 90%;
+}
+
+
+.accordion {
+  font-family: 'Raleway', sans-serif;
+    height: 6rem;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 1.6rem;
+    transition: 0.4s;
+    font-weight: bold;
+    position: relative;
+    
+  }
+
+  
 
 }
 
 @media (max-width: 740px) {
-
-    .body-title {
-        color: white;
-        margin-right: 15%;
-    }
-
-    .body-text{ /* about paragraph */
-        padding:0 10% 3rem 5%;
-        margin-right:14%;
-        text-align: justify;
-        color: white;
-    }
+    
 
     .body-title::after{
         width: 15%;
@@ -1389,8 +1556,6 @@ h3{
         margin-left: 14%;
     }
 
-
-    
     #contact-header::after{
         margin-left: 6%;
     }
@@ -1433,7 +1598,6 @@ h3{
     .brand-title{
         margin: -34px 0 22px 33%;
         width: 100%;
-        /* color: red; */
     }
 
     .toggle-button{
@@ -1451,6 +1615,247 @@ h3{
 
 
 @media (max-width: 533px) {
+
+    .headline h1{
+        /* color: red; */
+        font-size: 3.5rem;
+        margin-top: 12rem;
+        width: 90%;
+        margin-right: -43%;
+    }
+
+    .body-title {
+        margin-left: 21%;
+    }
+
+    .body-title::after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 40%; 
+        margin-left: 32%;
+    }
+
+    .body-text{ /* about paragraph */
+        padding:0 10% 3rem 0%;
+        text-align: justify;
+        margin-left: 4%;
+        width: 100%;
+    }
+
+    #services-header{
+        margin-left: 28%;
+    }
+
+    #ponds-header{
+        margin-left: 33%;
+    }
+
+    #ponds-p{
+       margin-left: 10%;
+    }
+
+    #ponds-container{
+        height: 35rem;
+    }
+
+    #flowerbeds-container{
+        height: 33rem;
+    }
+
+    
+    #flowerbeds-header{
+        margin-left: 18%;
+    }
+
+    #flowerbeds-p{
+        margin-left: 10%;
+    }
+    
+    #mowing-container{
+        height: 34rem;
+    }
+
+    #mowing-header{
+        margin-left: 27%;
+    }
+    
+    #mowing-p{
+        margin-left: 8%;
+    }
+
+    #weeding-container{
+        height: 34rem;
+    }
+
+    #weeding-header{
+        margin-left: 25%;
+   }
+   
+   #weeding-p{
+       margin-left: 10%;
+   }
+
+   #maintenance-container{
+    height: 39rem;
+   }
+
+   #maintenance-header{
+    margin-left: 16%;
+    }
+
+    #maintenance-p{
+        margin-left: 8%;
+    }
+
+    br.mobile-break{
+        display: block;
+    }
+
+    #digging-clearing-and-span{
+        margin-left: 30%;
+    }
+
+    #digging-and-clearing-digging-span{
+        margin-left: 20%;
+    }
+
+    #digging-and-clearing-clearing-span{
+        margin-left: 17%;
+    }
+
+    #digging-and-clearing-container{
+       height: 41rem;
+    }
+
+    #digging-and-clearing-p{
+        margin-left: 9%;
+    }
+    
+    #wildlife-span-1{
+        margin-left: 7%;
+    }
+    
+    #wildlife-gardening-container{
+       height: 36rem; 
+    }
+    
+    #wildlife-gardening-header{
+        margin-left: 25%;
+    }
+    
+    #wildlife-gardening-p{
+        margin-left: 12%;
+    }
+
+    #garden-restorations-container{
+       height: 34rem;
+    }
+    
+    #garden-restorations-span-1{
+        margin-left: 18%;
+    }
+
+    #garden-restorations-span-2{
+        margin-left: 6%;
+    }
+    
+    #garden-restorations-p{
+        margin-left: 8%;
+    }
+
+    #other-services-header{
+        margin-left: 20%;
+    }
+    
+    #other-services-header::after{
+        margin-left: 8%;
+    }
+    
+    #other-services-p{
+        margin-left: 12.5%;
+    }
+
+    #contact-container{
+        /* remove margin top */
+        height:50rem; 
+        margin-bottom: 15rem;
+        margin-top: 50rem;
+    }
+    
+    #contact-header{
+        margin-left: 26%;
+        margin-top: 11rem;
+        padding-top: 20rem;
+    }
+    
+    #contact-header::after{
+        width: 60%;
+        margin-left: 6%;
+        margin-bottom: 5rem;
+    }
+    
+    #email-container{
+        width: 89%;
+        margin-left: 6%;
+    }
+    
+    #email{
+        margin-left: -6%;
+        font-size: 1.8rem;
+    }
+    
+    #email-icon{
+        margin-left:41%;
+    }
+    
+    #phone-icon{
+        margin-left: 18%;
+    }
+  
+    #phone-container{
+        width: 89%;
+        margin-left: 6%;
+    }
+    
+    #phone-number{
+        margin-left: -7%;
+    }
+
+    #faqcontainer{
+        height: 25rem;
+        margin-top: 1rem;
+    }
+    
+    #faqheader{
+        margin-left: 42%;
+        padding-top: 6rem;
+    }
+    
+    #faqheader::after{
+        width: 25%;
+        margin-left:2.5%;
+    }
+    
+    #accordion-container{
+        margin-left: 3.2%;
+        width: 94%;
+    }
+
+    
+    #accordion-container button:nth-of-type(3)::before{
+        width: 70%;
+        margin-top: -3%;
+        margin-left: 10%;
+    }
+
+    #map {
+        height: 70%;
+        width: 95%;
+        margin: auto;
+        margin-top: 5.5rem;
+      }
+
     .brand-title{
         margin: -40px 0 22px 23%;
         /* color: blueviolet; */
@@ -1469,6 +1874,7 @@ h3{
 }
 
 @media (max-width: 540px) {
+
     .body-title {
         color: rgb(255, 255, 255);
         margin-right: 26%;
@@ -1481,10 +1887,6 @@ h3{
         color: white;
     }
 
-    .body-title::after{
-        width: 19%;
-        margin-left: 42%;
-    }
 
 }
 
