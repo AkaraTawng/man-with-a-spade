@@ -487,6 +487,7 @@ h3{
 
 #digging-and-clearing-header{
     margin-left: 29%;
+    width: 100%;
 }
 
 #digging-and-clearing-p{
@@ -494,7 +495,7 @@ h3{
 
 }
 
-br.digging-clearing-break{
+br.mobile-break{
     display: none;
 }
 
@@ -833,10 +834,11 @@ br.digging-clearing-break{
 
   #faq_bridport_link{
       text-decoration: none;
+      color: var(--green)!important;
   }
 
   #faq_bridport_link:hover{
-   border-bottom: 2px solid var(--green); 
+   border-bottom: 2px solid var(--yellow); 
    /* transition: all 2s ease; */
   }
 
