@@ -17,7 +17,7 @@ body {
 
 
 #wrapper{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/countryside2.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/countryside2.jpg);
     /* background-image: url(/img/countryside8.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -388,7 +388,7 @@ h3{
 }
 
 #ponds-container{
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(/img/services1.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(img/services1.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -399,7 +399,7 @@ h3{
 
 /* FLOWERBEDS */
 #flowerbeds-container{
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(/img/flowerbed1.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(img/flowerbed1.jpg);
     background-size: cover;
     background-attachment: fixed;
     border-top: white solid 2px;
@@ -424,7 +424,7 @@ h3{
 /* LAWN MOWING */
 
 #mowing-container{
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(/img/mowing1.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(img/mowing1.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -441,7 +441,7 @@ h3{
 
 /* WEEDING */
 #weeding-container{
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(/img/weeding.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(img/weeding.jpg);
     border-top: solid white 2px;
     background-size: cover;
     background-attachment: fixed;
@@ -461,7 +461,7 @@ h3{
 
 /* MAINTENANCE */
 #maintenance-container{
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(/img/maintenance1.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(img/maintenance1.jpg);
     border-bottom: solid white 2px;
     background-size: cover;
     background-attachment: fixed;    
@@ -479,7 +479,7 @@ h3{
 
 /* DIGGING AND CLEARING */
 #digging-and-clearing-container{
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(/img/dandc.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(img/dandc.jpg);
     border-bottom: solid white 2px;
     background-size: cover;
     background-attachment: fixed;    
@@ -501,7 +501,7 @@ br.mobile-break{
 
 /* WILDLIFE GARDENING */
 #wildlife-gardening-container{
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(/img/wildlifegardening.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(img/wildlifegardening.jpg);
     border-bottom: solid white 2px;
     background-size: cover;
     background-attachment: fixed;    
@@ -535,7 +535,7 @@ br.mobile-break{
 
 /* GARDEN RESTORATIONS */
 #garden-restorations-container{
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(/img/restorations.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(img/restorations.jpg);
     border-bottom: solid white 2px;
     background-size: cover;
     background-attachment: fixed;    
