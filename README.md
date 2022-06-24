@@ -16,6 +16,7 @@
 - Google Maps API integration with custom marker
 - Hamburger menu
 - FAQ accordion
+- ![faq accordion screenshot](/img/faq.png)
 
 ---
 
