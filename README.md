@@ -25,7 +25,7 @@
 ![hamburger menu gif](/img/hamburgergifcom.gif)
 
 ## FAQ accordion
-![faq accordion screenshot](/img/faqsm.png)
+![faq accordion gif](/img/faq.gif)
 
 ---
 
