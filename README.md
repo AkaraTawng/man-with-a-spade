@@ -33,5 +33,5 @@
 ---
 
 # What I learned? 👨‍💻
-- How to integrate Google Maps API and make a custome marker
+- How to integrate Google Maps API and make a custom marker
 
