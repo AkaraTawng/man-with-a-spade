@@ -12,16 +12,17 @@
 
 # Features ⚙
 ## Fully responsive UI
-![mobile version screenshot](/img/mobile50.png)
+![mobile mode gif](/img/responsivegifcom.gif)
+
 
 ## Image carousel
-![image carousel screenshot](/img/carousel.png)
+![image carousel gif](/img/carouselgif.gif)
 
 ## Google Maps API integration with custom marker
 ![map screenshot](/img/map.png)
 
 ## Hamburger menu
-![hamburger menu screenshot](/img/hamburger50.png)
+![hamburger menu gif](/img/hamburgergifcom.gif)
 
 ## FAQ accordion
 ![faq accordion screenshot](/img/faqsm.png)
