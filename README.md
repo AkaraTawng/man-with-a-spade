@@ -27,6 +27,9 @@
 ## FAQ accordion
 ![faq accordion gif](/img/faq.gif)
 
+## Rising back-to-top button
+![back-to-top gif](/img/backtotop.gif)
+
 ---
 
 # What I learned? 👨‍💻
