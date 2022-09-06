@@ -320,12 +320,12 @@ h3{
 
 
 #services-header{
-    padding-top: 6rem;
-
+    margin-top: 3rem;
+    margin-left: 53rem;
 }
 
 #services-container{
-    margin-top: 6rem;
+    margin-top: 1rem;
 }
 
 .all-services-container{
