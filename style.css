@@ -321,7 +321,7 @@ h3{
 
 #services-header{
     margin-top: 3rem;
-    margin-left: 52rem;
+    margin-left: 53rem;
 }
 
 #services-container{
@@ -346,9 +346,9 @@ h3{
 
 /* services subheaders shared styles */
 .all-services-container h3{
-    margin-top: 6rem;
+    margin-top: 7rem;
     margin-bottom: 3rem;
-    font-size: 3.5rem;
+    font-size: 4.3rem;
     color: white;
     font-family: 'Raleway', sans-serif;
 }
@@ -357,7 +357,7 @@ h3{
 /* services paragraphs shared styles */
 .all-services-container p{
     color: white;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-family: 'Raleway', sans-serif;
     text-align: justify;
 
@@ -384,7 +384,6 @@ h3{
 
 #ponds-p{
     margin: 0 2rem 0 3rem;
-    font-size: 1.6rem;
 }
 
 #ponds-container{
