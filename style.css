@@ -12,16 +12,13 @@ body {
     padding: 0;
     display: grid;
     grid-template-columns: auto 0px;
-
 }
-
 
 #wrapper{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/countryside2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 /* NAVBAR */
@@ -72,7 +69,6 @@ body {
     width: 75%;
 }
 
-
 /* CONTACT NAV LINK */
 .navbar-links li:nth-of-type(3) a::before {
     width: 72%;
@@ -88,7 +84,6 @@ body {
     transform: scaleX(1);
 }
 
-
 .navbar-links li a{
     color: var(--yellow);
     padding: 1rem;
@@ -97,7 +92,6 @@ body {
     margin-right: 1rem;
     transition: color .1s ease-in-out;
     position: relative;
-
 }
 
 .navbar-links li a:hover{
@@ -115,7 +109,6 @@ body {
 
 
 /* HAMBURGER */
-
 .toggle-button{
     position: absolute;
     top: 22px;
@@ -141,7 +134,6 @@ body {
 }
 
 /* HEADLINE  */
-
 .headline{
     display: flex;
     justify-content: center;
@@ -160,7 +152,6 @@ body {
 }
 
 /* SHOWCASE CAROUSEL */
-
 .carousel{
     position: relative;
     height: 70rem;
@@ -191,7 +182,6 @@ body {
     position: relative;
     height: 100%;
     transition: transform 0.4s ease;
-
 }
 
 .carousel__slide /*stack images on top of each other*/ { 
@@ -210,7 +200,6 @@ body {
     cursor: pointer;
 }
 
-
 .carousel__button img{
     width: 45px; 
 }
@@ -223,13 +212,11 @@ body {
 
 .carousel__button--left /*moves button out from behind picture*/ {
     margin-left:10%;
-
 }
 
 .carousel__button--right{
     margin-left: 78%;
 }
-
 
 .carousel__nav{
     display: flex; /* enables justify content center */
@@ -255,7 +242,6 @@ body {
 }
 
 /* SHARED BODY STYLES */
-
 .body-title{ /* about header */
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -267,7 +253,6 @@ body {
     margin-top: 3rem;
 }
 
-
 .body-title::after{
     content: "";
     display: block;
@@ -278,7 +263,6 @@ body {
     /* margin-left: 34.8rem; pending deletion*/
     margin-left: 46%;
 }
-
 
 .body-text{ /* about paragraph */
     color: white;
@@ -316,12 +300,11 @@ h3{
 .body-text {
     font-size: 2rem;
 }
+
 /* SERVICES */
-
-
 #services-header{
     margin-top: 3rem;
-    margin-left: 53rem;
+    margin-left: 52rem;
 }
 
 #services-container{
@@ -340,9 +323,7 @@ h3{
     font-family:'Raleway', sans-serif;
     font-weight: 1;
     margin-left: 41%;
-    
 }
-
 
 /* services subheaders shared styles */
 .all-services-container h3{
@@ -353,14 +334,12 @@ h3{
     font-family: 'Raleway', sans-serif;
 }
 
-
 /* services paragraphs shared styles */
 .all-services-container p{
     color: white;
     font-size: 2rem;
     font-family: 'Raleway', sans-serif;
     text-align: justify;
-
 }
 
 .individual-service-containers{
@@ -392,36 +371,23 @@ h3{
     background-attachment: fixed;
 }
 
-
-
-
-
 /* FLOWERBEDS */
 #flowerbeds-container{
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(img/flowerbed1.jpg);
     background-size: cover;
     background-attachment: fixed;
     border-top: white solid 2px;
-   
 }
-
-
 
 #flowerbeds-header{
-    margin-left: 39%;
-
+    margin-left: 40%;
 }
-
 
 #flowerbeds-p{
-    margin: 0 2rem 0 2rem;
-    
+    margin: 0 2rem 0 2rem;  
 }
 
-
-
 /* LAWN MOWING */
-
 #mowing-container{
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(img/mowing1.jpg);
     background-size: cover;
@@ -433,10 +399,8 @@ h3{
 }
 
 #mowing-p{
-    margin: 0 2rem 0 3rem;
-    
+    margin: 0 2rem 0 3rem; 
 }
-
 
 /* WEEDING */
 #weeding-container{
@@ -446,17 +410,13 @@ h3{
     background-attachment: fixed;
 }
 
-
-
 #weeding-header{
      margin-left: 42%;
 }
 
 #weeding-p{
-    margin: 0 2rem 0 2rem;
-     
+    margin: 0 2rem 0 2rem; 
 }
-
 
 /* MAINTENANCE */
 #maintenance-container{
@@ -465,8 +425,6 @@ h3{
     background-size: cover;
     background-attachment: fixed;    
 }
-
-
 
 #maintenance-header{
     margin-left: 39%;
@@ -485,13 +443,12 @@ h3{
 }
 
 #digging-and-clearing-header{
-    margin-left: 29%;
+    margin-left: 33%;
     width: 100%;
 }
 
 #digging-and-clearing-p{
     margin: 0 2rem 0 3rem;
-
 }
 
 br.mobile-break{
@@ -507,7 +464,7 @@ br.mobile-break{
 }
 
 #wildlife-gardening-header{
-    margin-left: 31%;
+    margin-left: 35%;
 }
 
 #wildlife-gardening-p{
@@ -517,7 +474,7 @@ br.mobile-break{
 #wildlife-trust-link{
     text-decoration: none;
     font-weight: bolder;
-
+    color: var(--yellow) !important;
 }
 
 #wildlife-trust-link:visited{
@@ -525,12 +482,10 @@ br.mobile-break{
 }
 
 #wildlife-trust-link:hover{
-    color: rgba(253, 226, 69, 0.9);
+    /* color: rgba(253, 226, 69, 0.9); */
     border-bottom: 2px solid rgba(8, 209, 18, 0.5);
     transition: color 0.3s ease;
- 
 }
-
 
 /* GARDEN RESTORATIONS */
 #garden-restorations-container{
@@ -546,20 +501,18 @@ br.mobile-break{
 }
 
 #garden-restorations-header{
-    margin-left: 32%;
+    margin-left: 34%;
 }
 
 #garden-restorations-p{
     margin: 0 2rem 0 3rem;
-
 }
-
 
 /* OTHER SERVICES */
 #other-services-header{
     margin-left: 24rem;
     margin-top: 9rem;
-    
+
 }
 
 #other-services-header::after{
