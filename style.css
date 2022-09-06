@@ -165,7 +165,7 @@ body {
     position: relative;
     height: 70rem;
     width: 80%;
-    margin: -8rem 0 0 12rem;
+    margin: -8rem 0 0 13rem;
 }
 
 .carousel__image{
@@ -307,9 +307,15 @@ h3{
     text-align: center;
     /* background-color: rgba(0,0,0,0.2); */
     height: 100%;
-
 }
 
+#about.body-text {
+    margin-top: -25rem;
+}
+
+.body-text {
+    font-size: 2rem;
+}
 /* SERVICES */
 
 
