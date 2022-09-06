@@ -522,13 +522,13 @@ br.mobile-break{
     width: 35%;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left: 16%;
+    margin-left: 13.5%;
 }
 
 #other-services-p{
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin: 0 2rem 0 3rem;
 }
 
@@ -536,21 +536,16 @@ br.mobile-break{
     cursor: pointer;
     text-decoration: none;
     font-weight: bold;    
+    color: var(--yellow) !important;
 }
 
 #other-service-contact:visited{
-    /* color: rgba(102, 207, 4, 0.3); */
     color: rgb(255, 255, 255);
 }
 
 #other-service-contact:hover{
-    color: rgba(253, 226, 69, 0.9);
     border-bottom: 2px solid rgba(8, 209, 18, 0.5);
-    transition: color 0.2s ease;
- 
 }
-
-
 
 /* CONTACT */
 #contact-container{
@@ -1500,9 +1495,8 @@ br.mobile-break{
         margin-left:4%;
         margin-top: 2%;
     }
-  
-}
 
+}
 
 @media(max-width: 670px){
 
@@ -1565,8 +1559,6 @@ br.mobile-break{
         width: 100%;
     }
 }
-
-
 
 @media (max-width: 533px) {
 
@@ -1796,7 +1788,6 @@ br.mobile-break{
         width: 94%;
     }
 
-    
     #accordion-container button:nth-of-type(3)::before{
         width: 70%;
         margin-top: -3%;
@@ -1808,11 +1799,10 @@ br.mobile-break{
         width: 95%;
         margin: auto;
         margin-top: 5.5rem;
-      }
+    }
 
     .brand-title{
         margin: -40px 0 22px 23%;
-        /* color: blueviolet; */
     }
 
     .navbar-links ul{ /* hamburger links background */
@@ -1824,7 +1814,6 @@ br.mobile-break{
         /* color: blue; */
         margin-left: -13rem;
     }
-
 }
 
 @media (max-width: 540px) {
