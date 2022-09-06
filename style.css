@@ -127,9 +127,6 @@ body {
     height: 21px;
 }
 
-.svgToggle{
-}
-
 .svgToggle:hover{
     border-radius: 15px;
     border: 1px solid rgb(255, 247, 94);
@@ -154,24 +151,21 @@ body {
 
 .headline h1{
     color: white;
-    font-size: 3.3rem;
-    font-family: 
-    /* 'Roboto', sans-serif; */
-    'Raleway', sans-serif;
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
     font-weight: 1;
     margin-top: 8.5rem;
     margin-bottom:4rem;
     /* width: 90%; */
-
 }
 
 /* SHOWCASE CAROUSEL */
 
 .carousel{
     position: relative;
-    height: 40rem;
+    height: 70rem;
     width: 80%;
-    margin: -8rem 0 0 9rem;
+    margin: -8rem 0 0 12rem;
 }
 
 .carousel__image{
