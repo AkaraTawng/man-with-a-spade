@@ -510,7 +510,7 @@ br.mobile-break{
 
 /* OTHER SERVICES */
 #other-services-header{
-    margin-left: 24rem;
+    margin-left: 38rem;
     margin-top: 9rem;
 
 }
@@ -522,7 +522,7 @@ br.mobile-break{
     width: 35%;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left: 13.5%;
+    margin-left: 11%;
 }
 
 #other-services-p{
@@ -552,7 +552,7 @@ br.mobile-break{
     /* remove margin top */
     height: 50rem; 
     margin-bottom: -5rem;
-    margin-top: 50rem;
+    margin-top: 10rem;
 }
 
 #flex-container{
