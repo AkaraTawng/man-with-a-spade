@@ -841,6 +841,12 @@ border-bottom: 2px solid var(--yellow);
     .headline h1{
         font-size: 3.4rem;
     }
+
+    .carousel{
+        height: 60rem;
+        width: 90%;
+        margin: -8rem 0 0 5.8rem;
+    }
 }
 
 
