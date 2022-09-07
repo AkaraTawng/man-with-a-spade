@@ -319,7 +319,6 @@ h3{
     margin-top: 10rem;
     font-size:4.5rem;
     color: white;
-    /* text-decoration: underline; */ /* Make underline dynamic on arrival */
     font-family:'Raleway', sans-serif;
     font-weight: 1;
     margin-left: 41%;
@@ -847,6 +846,32 @@ border-bottom: 2px solid var(--yellow);
         width: 90%;
         margin: -8rem 0 0 5.8rem;
     }
+
+    /* about section */
+    .body-title {
+        font-size: 4rem;
+    }
+
+    .body-text{
+        font-size: 1.6rem;
+    }
+
+    /* services */
+    #services-header {
+        font-size: 4rem;
+        margin-left: 33rem;
+    }
+
+    .all-services-container h3 {
+        font-size: 4rem;
+    }
+   
+    .all-services-container p {
+        font-size: 1.8rem;
+    }
+
+
+
 }
 
 
