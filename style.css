@@ -1162,12 +1162,36 @@ border-bottom: 2px solid var(--yellow);
 }
 #faqheader {
     font-size: 4rem;
-    margin-left: 45%;
+    margin-left: 42% !important;
 }
 
 #faqheader::after {
-    margin-left: 3.5%;
+    margin-left: 6.5% !important;
 }
+
+.accordion {
+    font-size: 1.8rem;
+}
+
+.accordion::before {
+    margin-left: 3rem !important;
+}
+
+#accordion-container button:nth-of-type(2)::before{
+    width: 50% !important;
+}
+
+#accordion-container button:nth-of-type(3)::before{
+    width: 70% !important;
+}
+
+.panel {
+    font-size: 1.3rem;
+}
+
+.panel p{
+    padding: 0 4% 0 4%;
+    }
 
 }
 
