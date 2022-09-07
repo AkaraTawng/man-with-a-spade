@@ -34,7 +34,7 @@ body {
 }
 
 .brand-title {
-    font-family:'Questrial', sans-serif;;
+    font-family:'Questrial', sans-serif;
     font-size: 3rem;
     margin: .9rem;
     margin-left: 3rem;
@@ -823,6 +823,48 @@ border-bottom: 2px solid var(--yellow);
   #back-to-top a:visited{
     text-decoration: none;
   }
+
+
+@media (max-width: 1280px) {
+    .brand-title {
+        font-size: 2rem;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   @media (max-width: 1000px){
