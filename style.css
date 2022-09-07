@@ -981,11 +981,7 @@ border-bottom: 2px solid var(--yellow);
 
 @media (max-width: 768px) {
     .brand-title {
-        font-size: 2rem;
-    }
-
-    .navbar-links li {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     #logo{
@@ -993,8 +989,8 @@ border-bottom: 2px solid var(--yellow);
     }
 
     .headline h1{
-        font-size: 2.5rem;
-        width: 90%;
+        font-size: 3rem;
+        width: 90% !important;
     }
 
     .carousel{
@@ -1005,7 +1001,7 @@ border-bottom: 2px solid var(--yellow);
 
     /* about section */
     .body-title {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .body-text{
@@ -1014,45 +1010,70 @@ border-bottom: 2px solid var(--yellow);
 
     /* services */
     #services-header {
-        font-size: 4rem;
-        margin-left: 33rem;
+        font-size: 3.4rem;
+        margin-left: 19rem;
     }
 
+    .all-services-container{
+        height: 310rem;
+    }
+    
     .all-services-container h3 {
-        font-size: 4rem;
+        font-size: 3.4rem;
     }
    
     .all-services-container p {
         font-size: 1.7rem;
     }
 
+    #ponds-header{
+        margin-top: 5.5rem;
+        margin-left: 39% !important;
+    }
+    
     #flowerbeds-header{
-        margin-left: 38%;
+        margin-left: 31% !important;
+        margin-top: 5.7rem;
     }
 
     #mowing-header{
-        margin-left: 40%;
+        margin-left: 36% !important;
+        margin-top: 5.5rem;
     }
 
     #weeding-header{
         margin-left: 40%;
+        margin-top: 5.5rem;
    }
 
+   #maintenance-container{
+    height: 35rem;
+}
+
    #maintenance-header{
-    margin-left: 37%;
+    margin-left: 29% !important;
 }
 
 #digging-and-clearing-header{
     margin-left: 26%;
+    margin-top: 5.5rem;
     width: 100%;
 }
 
 #wildlife-gardening-header{
-    margin-left: 29%;
+    margin-left: 18% !important;
+    margin-top: 5.5rem;
 }
 
+#wildlife-gardening-p{
+    margin: 0 2rem 0 4rem;
+    text-align: left;
+}
+
+
 #garden-restorations-header{
-    margin-left: 29%;
+    margin-left: 17% !important;
+    margin-top: 7rem;
 }
 
 /* other services */
