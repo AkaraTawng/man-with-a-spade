@@ -830,6 +830,10 @@ border-bottom: 2px solid var(--yellow);
         font-size: 2rem;
     }
 
+    .navbar-links li {
+        font-size: 1.5rem;
+    }
+
     
 }
 
