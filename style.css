@@ -870,7 +870,34 @@ border-bottom: 2px solid var(--yellow);
         font-size: 1.8rem;
     }
 
+    #flowerbeds-header{
+        margin-left: 38%;
+    }
 
+    #mowing-header{
+        margin-left: 40%;
+    }
+
+    #weeding-header{
+        margin-left: 40%;
+   }
+
+   #maintenance-header{
+    margin-left: 37%;
+}
+
+#digging-and-clearing-header{
+    margin-left: 26%;
+    width: 100%;
+}
+
+#wildlife-gardening-header{
+    margin-left: 29%;
+}
+
+#garden-restorations-header{
+    margin-left: 29%;
+}
 
 }
 
