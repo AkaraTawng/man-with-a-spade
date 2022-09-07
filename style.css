@@ -853,7 +853,7 @@ border-bottom: 2px solid var(--yellow);
     }
 
     .body-text{
-        font-size: 1.6rem;
+        font-size: 1.7rem;
     }
 
     /* services */
@@ -867,7 +867,7 @@ border-bottom: 2px solid var(--yellow);
     }
    
     .all-services-container p {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 
     #flowerbeds-header{
@@ -897,6 +897,33 @@ border-bottom: 2px solid var(--yellow);
 
 #garden-restorations-header{
     margin-left: 29%;
+}
+
+/* other services */
+#other-services-header{
+    margin-left: 19rem;
+    margin-top: 9rem;
+}
+
+#other-services-header::after{
+    margin-left: 16%;
+}
+
+#other-services-p {
+    font-size: 1.7rem;
+}
+
+/* contact */
+#contact-container {
+    margin-top: -4rem;
+}
+
+#contact-header {
+    margin-left: 38%;
+}
+
+#contact-header::after {
+    margin-left: 13%;
 }
 
 }
