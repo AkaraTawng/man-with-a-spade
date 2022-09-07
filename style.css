@@ -779,16 +779,16 @@ border-bottom: 2px solid var(--yellow);
 
 /* MAP */
 #map {
-    height: 30rem;
-    width: 50rem;
+    height: 40rem;
+    width: 60rem;
     margin: auto;
     border-radius: 20px;
     margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-top: 12rem;
   }
 
   .map-container {
-      height: 40rem;
+      height: 65rem;
       padding-top: 4rem;
   }
  
