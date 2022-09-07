@@ -549,7 +549,6 @@ br.mobile-break{
 
 /* CONTACT */
 #contact-container{
-    /* remove margin top */
     height: 50rem; 
     margin-bottom: -5rem;
     margin-top: 10rem;
@@ -565,6 +564,7 @@ br.mobile-break{
     margin-left: 41%;
     margin-top: 11rem;
     padding-top: 5.5rem;
+    font-size: 4.3rem;
 }
 
 #contact-header::after{
@@ -574,7 +574,7 @@ br.mobile-break{
     width: 20%;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left: 7%;
+    margin-left: 6%;
     margin-bottom: 5rem;
 }
 /* 
@@ -584,9 +584,8 @@ br.mobile-break{
 } */
 
 #email-container{
-    /* color: blanchedalmond; */
     color: white;
-    height: 1rem;
+    height: 30rem;
     border: solid 1px white;
     padding: 8rem 2.6rem 8rem 2.6rem;
     background-color: rgba(0,0,0,0.2);
@@ -595,6 +594,7 @@ br.mobile-break{
 #email{
     text-decoration: none;
     color:blanchedalmond ;
+    font-size: 2.5rem !important;
 }
 
 #email:hover{
@@ -603,10 +603,10 @@ br.mobile-break{
 }
 
 #email-icon{
-    width: 4rem;
+    width: 8rem;
     margin-bottom: 3rem;
-    margin-top: -5.5rem;
-    margin-left:10.2rem;
+    margin-top: -3.5rem;
+    margin-left:13rem;
 }
 
 #phone-icon{
@@ -617,7 +617,7 @@ br.mobile-break{
 }
 
 #by-email{
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: -2rem;
     text-align: center;
     font-family: 'Raleway', sans-serif;
