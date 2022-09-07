@@ -837,6 +837,10 @@ border-bottom: 2px solid var(--yellow);
     #logo{
         height: 4rem;
     }
+
+    .headline h1{
+        font-size: 3.4rem;
+    }
 }
 
 
