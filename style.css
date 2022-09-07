@@ -1193,6 +1193,21 @@ border-bottom: 2px solid var(--yellow);
     padding: 0 4% 0 4%;
     }
 
+    #map {
+        height: 30rem !important;
+        width: 60rem;
+        margin: auto;
+        border-radius: 20px;
+        margin-bottom: 0rem !important;
+        margin-top: 13rem !important;
+      }
+    
+      .map-container {
+          height: 55rem;
+          padding-top: 4rem;
+      }
+     
+
 }
 
 
