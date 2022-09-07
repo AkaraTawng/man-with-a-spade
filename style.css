@@ -834,7 +834,9 @@ border-bottom: 2px solid var(--yellow);
         font-size: 1.5rem;
     }
 
-    
+    #logo{
+        height: 4rem;
+    }
 }
 
 
