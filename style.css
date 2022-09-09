@@ -857,7 +857,7 @@ border-bottom: 2px solid var(--yellow);
     .carousel{
         height: 45rem;
         width: 70%;
-        margin: -8rem 0 0 13rem;
+        margin: -8rem 0 7rem 13rem;
     }
 
     /* about section */
@@ -868,6 +868,7 @@ border-bottom: 2px solid var(--yellow);
     .body-text{
         font-size: 1.6rem !important;
         margin-left: 3rem;
+        margin-bottom: -1rem;
     }
 
     /* services */
