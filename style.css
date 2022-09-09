@@ -830,12 +830,19 @@ border-bottom: 2px solid var(--yellow);
         font-size: 2rem;
     }
 
+    .navbar {
+        height: 5rem;
+    }
+
     .navbar-links li {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        margin-right: 8rem;
     }
 
     #logo{
         height: 4rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     .headline h1{
