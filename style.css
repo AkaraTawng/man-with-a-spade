@@ -655,15 +655,15 @@ br.mobile-break{
 
 /* FAQ ACCORDION */
 #faqcontainer{
-    height: 25rem;
+    /* height: 50rem; */
     margin-top: 1rem;
     margin-left: 6em;
 }
 
 #faqheader{
-    margin-left: 47%;
+    margin-left: 45%;
     padding-top: 6rem;
-    font-size: 4.2rem;
+    font-size: 5.5rem;
 }
 
 #faqheader::after{
@@ -673,19 +673,19 @@ br.mobile-break{
     width: 9%;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left:1.5%;
+    margin-left:2.8%;
     /* margin-bottom: 5rem; */
 }
 
 #accordion-container{
-    margin-left: 6rem;
-    width: 85%;
+    margin-left: 3.5rem;
+    width: 90%;
     border: 2px solid white;
 }
 
 .accordion {
-  font-family: 'Raleway', sans-serif;
-    height: 10rem;
+    font-family: 'Raleway', sans-serif;
+    height: 15rem;
     background-color: rgba(0,0,0,0.3);
     color: white;
     cursor: pointer;
@@ -693,7 +693,7 @@ br.mobile-break{
     border: none;
     text-align: center;
     outline: none;
-    font-size: 2rem;
+    font-size: 2.7rem;
     transition: 0.4s;
     font-weight: bold;
     position: relative;
@@ -704,8 +704,8 @@ br.mobile-break{
     content: '';
     position: absolute;
     top: 80%;
-    width: 23%;
-    margin-left: 0.3rem;
+    width: 26%;
+    margin-left: 0.6rem;
     height: 1.5px;
     background-color:white;
     transform: scaleX(0);
@@ -713,11 +713,11 @@ br.mobile-break{
 }
 
 #accordion-container button:nth-of-type(2)::before{
-    width: 29%;
+    width: 32%;
 }
 
 #accordion-container button:nth-of-type(3)::before{
-    width: 38%;
+    width: 40%;
 }
 
 .accordion:focus::before{
@@ -735,7 +735,7 @@ color: white;
 font-weight: bold;
 float: right;
 margin-right: 2%;
-}
+} 
 
 .accordion:hover:after{
 color: black;
@@ -754,7 +754,7 @@ overflow: hidden;
 transition: max-height 0.2s ease-out;
 text-align: center;
 font-family: 'Raleway', sans-serif;
-font-size: 1.7rem;
+font-size: 1.9rem;
 font-weight: bold;
 color: black;
 }
