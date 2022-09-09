@@ -862,11 +862,12 @@ border-bottom: 2px solid var(--yellow);
 
     /* about section */
     .body-title {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .body-text{
-        font-size: 1.7rem;
+        font-size: 1.6rem !important;
+        margin-left: 3rem;
     }
 
     /* services */
