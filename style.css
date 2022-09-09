@@ -847,6 +847,11 @@ border-bottom: 2px solid var(--yellow);
 
     .headline h1{
         font-size: 3.4rem;
+        margin-top: -5rem;
+    }
+
+    .headline h2 {
+        font-size: 3rem;
     }
 
     .carousel{
