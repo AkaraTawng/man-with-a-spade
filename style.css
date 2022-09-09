@@ -770,7 +770,6 @@ margin: 4% 0 4% 0;
 
 #faq_bridport_link:hover{
 border-bottom: 2px solid var(--yellow); 
-/* transition: all 2s ease; */
 }
 
 #faq_bridport_link:visited{
@@ -779,8 +778,8 @@ border-bottom: 2px solid var(--yellow);
 
 /* MAP */
 #map {
-    height: 40rem;
-    width: 60rem;
+    height: 60rem;
+    width: 80rem;
     margin: auto;
     border-radius: 20px;
     margin-bottom: 5rem;
@@ -788,7 +787,7 @@ border-bottom: 2px solid var(--yellow);
   }
 
   .map-container {
-      height: 65rem;
+      height: 85rem;
       padding-top: 4rem;
   }
  
