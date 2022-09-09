@@ -308,18 +308,18 @@ h3{
 
 .all-services-container h2{
     margin-top: 10rem;
-    font-size:4.5rem;
+    font-size:5.5rem;
     color: white;
     font-family:'Raleway', sans-serif;
     font-weight: 1;
-    margin-left: 41%;
+    margin-left: 41% !important;
 }
 
 /* services subheaders shared styles */
 .all-services-container h3{
     margin-top: 7rem;
     margin-bottom: 3rem;
-    font-size: 4.3rem;
+    font-size: 5rem;
     color: white;
     font-family: 'Raleway', sans-serif;
 }
