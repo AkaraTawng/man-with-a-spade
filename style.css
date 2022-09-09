@@ -1029,15 +1029,26 @@ border-bottom: 2px solid var(--yellow);
 
 /* faq */
 #faqcontainer {
-    margin-left: 1rem;
+    margin-left: 6.5rem;
+    width: 85%;
 }
 #faqheader {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-left: 45%;
 }
 
 #faqheader::after {
-    margin-left: 3.5%;
+    margin-left: 2%;
+}
+
+.accordion {
+    font-size: 1.6rem;
+    height: 7rem;
+}
+
+.panel {
+    font-size: 1.1rem;
+    padding: 0 1rem;
 }
 
 }
