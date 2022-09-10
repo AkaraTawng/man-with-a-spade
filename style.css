@@ -1461,7 +1461,48 @@ border-bottom: 2px solid var(--yellow);
     height: 3.5rem;
 }
 
+/* faq */
+#faqcontainer {
+    margin-left: 2.4rem;
+}
+#faqheader {
+    font-size: 2rem;
+    margin-left:23%;
+}
 
+#faqheader::after {
+    margin-left: 2%;
+}
+
+.accordion {
+    font-size: 1.2rem;
+}
+
+#accordion-container{
+    margin-left: -1.2rem;
+    width: 60%;
+}
+
+.accordion::before {
+    margin-left: 1.2rem !important;
+    width: 50%;
+}
+
+#accordion-container button:nth-of-type(2)::before{
+    width: 65% !important;
+}
+
+#accordion-container button:nth-of-type(3)::before{
+    width: 47% !important;
+}
+
+.panel {
+    font-size: 1rem;
+}
+
+.panel p{
+    padding: 0 4% 0 4%;
+    }
 
 #map {
     height: 18rem !important;
@@ -1470,11 +1511,10 @@ border-bottom: 2px solid var(--yellow);
     margin-left: 1.8rem;
     border-radius: 20px;
     margin-bottom: 0rem !important;
-    margin-top: 13rem !important;
+    margin-top: 5rem !important;
   }
 
   .map-container {
-      height: 40rem;
-      padding-top: 4rem;
+      height: 30rem;
   } 
 }
