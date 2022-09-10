@@ -1458,9 +1458,7 @@ border-bottom: 2px solid var(--yellow);
 }
 .toggle-button{
     position: absolute;
-    top: 22px;
-    right: 1rem;
-    display: none; /*doesn't display by default - has to be triggered on*/
+    right: -0.5rem;
     flex-direction: column;
     justify-content: space-between;
     width: 31px;
@@ -1468,9 +1466,9 @@ border-bottom: 2px solid var(--yellow);
 }
 
 #logo{
-    margin-left: 2rem;    
-    margin-top: 1rem !important;
+    margin-left: 1.5rem;    
     height: 3.5rem;
+    width: 3rem;
 }
 
 /* about section */
