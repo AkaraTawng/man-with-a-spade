@@ -1167,9 +1167,9 @@ border-bottom: 2px solid var(--yellow);
     }
 
     .carousel{
-        height: 50rem;
-        width: 90%;
-        margin: -8rem 0 0 4.5rem !important;
+        height: 40rem;
+        width: 60%;
+        margin: -8rem 0 6rem 2.5rem !important;
     }
 
     /* about section */
