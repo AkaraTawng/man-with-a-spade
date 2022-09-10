@@ -1461,6 +1461,72 @@ border-bottom: 2px solid var(--yellow);
     height: 3.5rem;
 }
 
+/* contact */
+#contact-container {
+    margin-top: 6rem;
+    height: 68rem !important;
+}
+
+#flex-container {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45rem;
+}
+
+#contact-header {
+    font-size: 2.5rem;
+    margin-left: 12%;
+    margin-bottom: -5%;
+}
+
+#contact-header::after {
+    margin-left: 11%;
+}
+
+#email-container{
+    height: 20rem;
+    width: 29rem; 
+    margin-left: 8.5rem !important;
+}
+
+#email-icon{
+    width: 4rem;
+    margin-bottom: 3rem;
+    margin-top: -3.5rem;
+    margin-left:9.7rem;
+}
+
+#by-email{
+    font-size: 1.6rem;
+    margin-top: -2rem;
+}
+
+#email{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+#phone-container{
+    height: 20rem;
+    width: 29rem;
+    margin-left: 8.5rem !important;
+}
+
+#by-phone{
+    font-size: 1.6rem;
+}
+
+#phone-number{
+    font-size: 1.5rem;
+    white-space: nowrap;
+    margin-left: 0.8rem;
+}
+
+#phone-icon{
+    width: 4rem;
+    margin-left: 4rem !important;
+}
+
 /* faq */
 #faqcontainer {
     margin-left: 2.4rem;
