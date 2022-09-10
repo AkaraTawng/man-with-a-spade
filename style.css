@@ -1439,11 +1439,23 @@ border-bottom: 2px solid var(--yellow);
 
 /* mobile */
 @media(max-width: 360px) {
-.brand-title {
-    font-size: 2rem !important;
-    margin: -4rem 0 0rem -4rem !important;
+
+.headline {
+    margin-bottom: 25rem;
+}
+    
+.headline h1 {
+    font-size: 2.2rem;
+    width: 100% !important;
+    margin-left: -3.4rem !important;
+    margin-top: -5rem;
 }
 
+.headline h2 {
+    font-size: 1.5rem;
+    margin-left: 0.5rem !important;
+    width: 72%;
+}
 .toggle-button{
     position: absolute;
     top: 22px;
@@ -1461,9 +1473,44 @@ border-bottom: 2px solid var(--yellow);
     height: 3.5rem;
 }
 
+/* about section */
+.body-title {
+    margin-left: -4rem;
+    font-size: 2rem;
+}
+
+.body-text{
+    font-size: 1.2rem !important;
+    margin-left: -1rem;
+    /* text-align: left; */
+    width: 105%;
+}
+
+
+.carousel{
+    display: none;
+}
+
+/* other services */
+#other-services-header{
+    margin-left: 5rem;
+    margin-top: 9rem;
+}
+
+#other-services-header::after{
+    margin-left: 8%;
+}
+
+#other-services-p {
+    text-align: left;
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+    width: 69%;
+}
+
 /* contact */
 #contact-container {
-    margin-top: 6rem;
+    margin-top: 6rem !important;
     height: 61rem !important;
 }
 
