@@ -1439,7 +1439,6 @@ border-bottom: 2px solid var(--yellow);
 
 /* mobile */
 @media(max-width: 360px) {
-
 .headline {
     margin-bottom: 25rem;
 }
@@ -1447,14 +1446,14 @@ border-bottom: 2px solid var(--yellow);
 .headline h1 {
     font-size: 2.2rem;
     width: 100% !important;
-    margin-left: -3.4rem !important;
+    margin-left: -0.8rem !important;
     margin-top: -5rem;
 }
 
 .headline h2 {
     font-size: 1.5rem;
     margin-left: 0.5rem !important;
-    width: 72%;
+    width: 90%;
 }
 .toggle-button{
     position: absolute;
@@ -1463,6 +1462,7 @@ border-bottom: 2px solid var(--yellow);
     justify-content: space-between;
     width: 31px;
     height: 21px;
+    top: -1rem;
 }
 
 #logo{
@@ -1473,42 +1473,174 @@ border-bottom: 2px solid var(--yellow);
 
 /* about section */
 .body-title {
-    margin-left: -4rem;
+    margin-left: -2rem;
     font-size: 2rem;
 }
 
 .body-text{
     font-size: 1.2rem !important;
     margin-left: -1rem;
-    /* text-align: left; */
-    width: 105%;
+    text-align: left;
+    width: 120%;
 }
-
 
 .carousel{
     display: none;
 }
 
+ /* services */
+ #services-header {
+    font-size: 2.3rem;
+    margin-left: 6.5rem !important;
+    margin-bottom: -3rem;
+}
+
+.all-services-container{
+    height: 220rem;
+}
+
+.all-services-container h3 {
+    font-size: 2.2rem;
+}
+
+.all-services-container p {
+    font-size: 1.4rem;
+}
+
+.individual-service-containers {
+    height: 28rem;
+}
+
+#ponds-header{
+    margin-top: -0.1rem;
+    margin-left: 49%;
+}
+
+#ponds-p {
+    margin: 0 0 0 -0.3rem;
+    width: 140%;
+}
+
+#flowerbeds-header{
+    margin-left:23%;
+    margin-top: -1.4%;
+}
+
+#flowerbeds-p{
+    margin: 0 0 0 -0.3rem;  
+    width: 140%;
+}
+
+#mowing-header{
+    margin-left: 37%;
+    margin-top: 0;
+}
+
+#mowing-p {
+    margin: 0 0 0 -0.1rem;
+    width: 140%;
+    text-align: left;
+}
+
+#weeding-header{
+    margin-left: 34%;
+    margin-top: 1%;
+}
+
+#weeding-p{
+margin: 0 0 0 -0.1rem; 
+width: 140%;
+text-align: left;
+}
+
+#maintenance-header{
+margin-left: 18%;
+}
+
+#maintenance-p{
+margin: 0 0 0 -0.1rem;
+width: 142%;
+text-align: left;
+}
+
+#maintenance-container {
+    height: 31rem;
+}
+
+#digging-and-clearing-header{
+margin-left: 33%;
+margin-top: -17%;
+width: 100%;
+}
+
+#digging-and-clearing-container {
+    height: 31rem;
+}
+
+br.mobile-break {
+    display: block;
+}
+
+#digging-clearing-and-span {
+    margin-left: 2rem;
+}
+
+#digging-and-clearing-p{
+margin: 0 0 0 -0.1rem;
+width: 140%;
+text-align: left;
+}
+
+#wildlife-gardening-header{
+margin-left: 23%;
+margin-top: 1%;
+}
+
+#wildlife-span-1 {
+    margin-left:11%;
+}
+
+#wildlife-gardening-p{
+margin: 0 0 0 -0.1rem;
+text-align: left;
+width: 140%;
+}
+
+
+#garden-restorations-header{
+margin-left: 19%;
+margin-top: -10%;
+}
+
+#garden-restorations-span-1 {
+    margin-left: 20%;
+}
+
+#garden-restorations-p{
+margin: 0 0 0 -0.6rem;
+width: 140%;
+}
+
 /* other services */
 #other-services-header{
     margin-left: 5rem;
-    margin-top: 9rem;
+    margin-top: 5rem;
 }
 
 #other-services-header::after{
-    margin-left: 8%;
+    margin-left: 14%;
 }
 
 #other-services-p {
     text-align: left;
     font-size: 1.4rem;
-    margin-left: 1.5rem;
-    width: 69%;
+    margin-left: 1rem;
+    width: 85%;
 }
 
 /* contact */
 #contact-container {
-    margin-top: 6rem !important;
+    margin-top: 37rem !important;
     height: 61rem !important;
 }
 
@@ -1520,18 +1652,18 @@ border-bottom: 2px solid var(--yellow);
 
 #contact-header {
     font-size: 2.3rem;
-    margin-left: 16%;
+    margin-left: 19%;
     margin-bottom: -10%;
 }
 
 #contact-header::after {
-    margin-left: 15%;
+    margin-left: 22%;
 }
 
 #email-container{
     height: 17rem;
     width: 19rem; 
-    margin-left: 1.3rem !important;
+    margin-left: 1.2rem !important;
 }
 
 #email-icon{
@@ -1554,7 +1686,7 @@ border-bottom: 2px solid var(--yellow);
 #phone-container{
     height: 17rem;
     width: 19rem; 
-    margin-left: 1.3rem !important;
+    margin-left: 1.2rem !important;
 }
 
 #by-phone{
@@ -1582,11 +1714,11 @@ border-bottom: 2px solid var(--yellow);
 }
 #faqheader {
     font-size: 2rem;
-    margin-left:31%;
+    margin-left:37%;
 }
 
 #faqheader::after {
-    margin-left: 4%;
+    margin-left: 8%;
 }
 
 .accordion {
@@ -1594,8 +1726,8 @@ border-bottom: 2px solid var(--yellow);
 }
 
 #accordion-container{
-    margin-left: -1.4rem;
-    width: 80%;
+    margin-left: -1.6rem;
+    width: 100%;
 }
 
 .accordion::before {
