@@ -1376,7 +1376,7 @@ border-bottom: 2px solid var(--yellow);
     
     /* PONDS */
     #ponds-header{
-        margin-left: 45%;
+        margin-left: 47%;
     }
     
     #ponds-container{
@@ -1384,7 +1384,7 @@ border-bottom: 2px solid var(--yellow);
     }
     
     #ponds-p{
-        margin: 0 2rem 0 3rem;
+        margin: 0 2rem 0 6rem;
     }
     
     #ponds-container{
