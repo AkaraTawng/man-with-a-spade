@@ -1321,26 +1321,12 @@ border-bottom: 2px solid var(--yellow);
         font-weight: 1;
         margin-top: 2%;
     }
-    
-    /* ABOUT */
-    #about{
-        text-align: center;
-        /* background-color: rgba(0,0,0,0.2); */
-        height: 100%;
-    }
-    
-    #about.body-text {
-        margin-top: -25rem;
-    }
-    
-    .body-text {
-        font-size: 2rem;
-    }
-    
+        
     /* SERVICES */
     #services-header{
         margin-top: 3rem;
-        margin-left: 52rem;
+        margin-left: 50rem !important;
+        font-size: 4.5rem;
     }
     
     #services-container{
