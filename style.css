@@ -31,12 +31,7 @@ body {
     position: fixed;
     width: 100vw;
     z-index:1;
-    height: 10rem;
-}
-
-.brand-title {
-    font-family:'Questrial', sans-serif;
-    font-size: 4rem;
+    height: 8rem;
 }
 
 .brand-title-mobile {
@@ -51,7 +46,7 @@ body {
 
 .navbar-links li {
     list-style: none; 
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     margin-right: 12rem;
 }
 
@@ -122,6 +117,7 @@ body {
 /* HEADLINE  */
 .headline{
     text-align: center;
+    font-family:'Questrial', sans-serif;
     margin-top: 15rem;
     margin-bottom: 14rem;
 }
@@ -824,7 +820,10 @@ border-bottom: 2px solid var(--yellow);
     text-decoration: none;
   }
 
-/* laptop */
+
+/*******************  LAPTOP  ***********************/
+
+
 @media (max-width: 1280px) {
     .brand-title {
         font-size: 2rem;
@@ -1071,7 +1070,7 @@ border-bottom: 2px solid var(--yellow);
 }
 
 
-/* *************************************** */
+/* ****************** TABLET ********************* */
 
 
 
@@ -1433,11 +1432,10 @@ border-bottom: 2px solid var(--yellow);
 
 
 
-/* ***************************************** */
+/* ******************  MOBILE  *********************** */
 
 
 
-/* mobile */
 @media(max-width: 360px) {
 .headline {
     margin-bottom: 25rem;
