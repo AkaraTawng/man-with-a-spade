@@ -111,9 +111,6 @@ body {
     display: none;
 }
 
-
-
-
 /* HEADLINE  */
 .headline{
     text-align: center;
@@ -819,258 +816,9 @@ border-bottom: 2px solid var(--yellow);
   #back-to-top a:visited{
     text-decoration: none;
   }
+  
 
-
-/*******************  LAPTOP  ***********************/
-
-
-@media (max-width: 1280px) {
-    .brand-title {
-        font-size: 2rem;
-    }
-
-    .navbar {
-        height: 5rem;
-    }
-
-    .navbar-links li {
-        font-size: 1.3rem;
-        margin-right: 8rem;
-    }
-
-    #logo{
-        height: 4rem;
-        margin-left: 3rem;
-        margin-right: 3rem;
-    }
-
-    .headline h1{
-        font-size: 3.4rem;
-        margin-top: -5rem;
-    }
-
-    .headline h2 {
-        font-size: 3rem;
-    }
-
-    .carousel{
-        height: 45rem;
-        width: 70%;
-        margin: -8rem 0 7rem 13rem;
-    }
-
-    /* about section */
-    .body-title {
-        font-size: 3rem;
-    }
-
-    .body-text{
-        font-size: 1.6rem !important;
-        margin-left: 3rem;
-        margin-bottom: -1rem;
-    }
-
-    /* services */
-    #services-header {
-        font-size: 3.2rem;
-        margin-left: 34rem !important;
-    }
-
-    .individual-service-containers {
-        height: 22rem;
-    }
-
-    .all-services-container{
-        height: 200rem;
-    }
-
-    .all-services-container h3 {
-        font-size: 3rem;
-        margin-top: 0rem;
-    }
-   
-    .all-services-container p {
-        font-size: 1.5rem;
-    }
-
-    #ponds-header{
-        margin-left: 48.5%;
-    }
-    
-    #ponds-p{
-        margin: 0 2rem 0 9rem;
-    }
-
-    #flowerbeds-header{
-        margin-left: 41%;
-    }
-
-    #flowerbeds-p{
-        margin: 0 2rem 0 8rem;  
-    }
-    
-    #mowing-header{
-        margin-left: 45%;
-    }
-
-    #mowing-p{
-        margin: 0 2rem 0 7rem; 
-    }
-
-    #weeding-header{
-        margin-left: 44%;
-   }
-
-   #weeding-p{
-    margin: 0 0 0 8rem; 
-    }
-
-   #maintenance-header{
-    margin-left: 41%;
-}
-
-#maintenance-p{
-    margin: 0 2rem 0 8rem;
-}
-
-
-#digging-and-clearing-header{
-    margin-left: 33%;
-    width: 100%;
-}
-
-#digging-and-clearing-p{
-    margin: 0 2rem 0 8rem;
-}
-
-#wildlife-gardening-header{
-    margin-left: 35%;
-}
-
-#wildlife-gardening-p{
-    margin: 0 2rem 0 8rem;
-}
-
-#garden-restorations-header{
-    margin-left: 34%;
-}
-
-#garden-restorations-p{
-    margin: 0 2rem 0 6.5rem;
-}
-
-/* other services */
-#other-services-header{
-    margin-left: 24rem;
-    margin-top: 9rem;
-}
-
-#other-services-header::after{
-    margin-left: 11%;
-}
-
-#other-services-p {
-    font-size: 1.6rem;
-}
-
-/* contact */
-#contact-container {
-    margin-top: -4rem;
-    margin-bottom: -8rem;
-}
-
-#contact-header {
-    font-size: 3rem;
-    margin-left: 41%;
-}
-
-#contact-header::after {
-    margin-left: 7%;
-}
-
-#email-container{
-    height: 22rem;
-}
-
-#email-icon{
-    width: 5rem;
-    margin-bottom: 3rem;
-    margin-top: -3.5rem;
-    margin-left:10rem;
-}
-
-#by-email{
-    font-size: 2rem;
-    margin-top: -2rem;
-}
-
-#email{
-    font-size: 1.8rem;
-}
-
-#phone-container{
-    height: 22rem;
-    width: 29rem;
-    margin-right: -2.5rem;
-}
-
-#by-phone{
-    font-size: 2rem;
-}
-
-#phone-number{
-    font-size: 1.8rem;
-    margin-left: -0.6rem;
-}
-
-#phone-icon{
-    width: 4rem;
-    margin-left: 4rem;
-}
-
-/* faq */
-#faqcontainer {
-    margin-left: 6.5rem;
-    width: 85%;
-}
-#faqheader {
-    font-size: 3rem;
-    margin-left: 46%;
-}
-
-#faqheader::after {
-    margin-left: 2%;
-}
-
-.accordion {
-    font-size: 1.6rem;
-    height: 7rem;
-}
-
-.panel {
-    font-size: 1.1rem;
-    padding: 0 1rem;
-}
-
-#map {
-    height: 30rem;
-    width: 40rem;
-    margin-top: 7rem;
-}
-
-.map-container {
-    height: 45rem;
-}
-
-#back-to-top {
-    font-size: 1rem;
-    padding: 0.9rem 0.9rem;
-}
-
-}
-
-
-/********************   1920 *************************/
+  /********************   1920 *************************/
 
 
 @media (max-width: 1920px) {
@@ -1844,6 +1592,255 @@ border-bottom: 2px solid var(--yellow);
       #back-to-top a:visited{
         text-decoration: none;
       }
+}
+
+
+/*******************  LAPTOP  ***********************/
+
+
+@media (max-width: 1280px) {
+    .brand-title {
+        font-size: 2rem;
+    }
+
+    .navbar {
+        height: 5rem;
+    }
+
+    .navbar-links li {
+        font-size: 1.3rem;
+        margin-right: 8rem;
+    }
+
+    #logo{
+        height: 4rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .headline h1{
+        font-size: 3.4rem;
+        margin-top: -5rem;
+    }
+
+    .headline h2 {
+        font-size: 3rem;
+    }
+
+    .carousel{
+        height: 45rem;
+        width: 70%;
+        margin: -8rem 0 7rem 13rem;
+    }
+
+    /* about section */
+    .body-title {
+        font-size: 3rem;
+    }
+
+    .body-text{
+        font-size: 1.6rem !important;
+        margin-left: 3rem;
+        margin-bottom: -1rem;
+    }
+
+    /* services */
+    #services-header {
+        font-size: 3.2rem;
+        margin-left: 34rem !important;
+    }
+
+    .individual-service-containers {
+        height: 22rem;
+    }
+
+    .all-services-container{
+        height: 200rem;
+    }
+
+    .all-services-container h3 {
+        font-size: 3rem;
+        margin-top: 0rem;
+    }
+   
+    .all-services-container p {
+        font-size: 1.5rem;
+    }
+
+    #ponds-header{
+        margin-left: 48.5%;
+    }
+    
+    #ponds-p{
+        margin: 0 2rem 0 9rem;
+    }
+
+    #flowerbeds-header{
+        margin-left: 41%;
+    }
+
+    #flowerbeds-p{
+        margin: 0 2rem 0 8rem;  
+    }
+    
+    #mowing-header{
+        margin-left: 45%;
+    }
+
+    #mowing-p{
+        margin: 0 2rem 0 7rem; 
+    }
+
+    #weeding-header{
+        margin-left: 44%;
+   }
+
+   #weeding-p{
+    margin: 0 0 0 8rem; 
+    }
+
+   #maintenance-header{
+    margin-left: 41%;
+}
+
+#maintenance-p{
+    margin: 0 2rem 0 8rem;
+}
+
+
+#digging-and-clearing-header{
+    margin-left: 33%;
+    width: 100%;
+}
+
+#digging-and-clearing-p{
+    margin: 0 2rem 0 8rem;
+}
+
+#wildlife-gardening-header{
+    margin-left: 35%;
+}
+
+#wildlife-gardening-p{
+    margin: 0 2rem 0 8rem;
+}
+
+#garden-restorations-header{
+    margin-left: 34%;
+}
+
+#garden-restorations-p{
+    margin: 0 2rem 0 6.5rem;
+}
+
+/* other services */
+#other-services-header{
+    margin-left: 24rem;
+    margin-top: 9rem;
+}
+
+#other-services-header::after{
+    margin-left: 11%;
+}
+
+#other-services-p {
+    font-size: 1.6rem;
+}
+
+/* contact */
+#contact-container {
+    margin-top: -4rem;
+    margin-bottom: -8rem;
+}
+
+#contact-header {
+    font-size: 3rem;
+    margin-left: 41%;
+}
+
+#contact-header::after {
+    margin-left: 7%;
+}
+
+#email-container{
+    height: 22rem;
+}
+
+#email-icon{
+    width: 5rem;
+    margin-bottom: 3rem;
+    margin-top: -3.5rem;
+    margin-left:10rem;
+}
+
+#by-email{
+    font-size: 2rem;
+    margin-top: -2rem;
+}
+
+#email{
+    font-size: 1.8rem;
+}
+
+#phone-container{
+    height: 22rem;
+    width: 29rem;
+    margin-right: -2.5rem;
+}
+
+#by-phone{
+    font-size: 2rem;
+}
+
+#phone-number{
+    font-size: 1.8rem;
+    margin-left: -0.6rem;
+}
+
+#phone-icon{
+    width: 4rem;
+    margin-left: 4rem;
+}
+
+/* faq */
+#faqcontainer {
+    margin-left: 6.5rem;
+    width: 85%;
+}
+#faqheader {
+    font-size: 3rem;
+    margin-left: 46%;
+}
+
+#faqheader::after {
+    margin-left: 2%;
+}
+
+.accordion {
+    font-size: 1.6rem;
+    height: 7rem;
+}
+
+.panel {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+}
+
+#map {
+    height: 30rem;
+    width: 40rem;
+    margin-top: 7rem;
+}
+
+.map-container {
+    height: 45rem;
+}
+
+#back-to-top {
+    font-size: 1rem;
+    padding: 0.9rem 0.9rem;
+}
+
 }
 
 
