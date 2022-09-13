@@ -1467,12 +1467,12 @@ border-bottom: 2px solid var(--yellow);
     }
     
     #digging-and-clearing-header{
-        margin-left: 33%;
+        margin-left: 34%;
         width: 100%;
     }
     
     #digging-and-clearing-p{
-        margin: 0 2rem 0 3rem;
+        margin: 0 2rem 0 6rem;
     }
     
     br.mobile-break{
