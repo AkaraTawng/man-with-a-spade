@@ -1800,8 +1800,8 @@ border-bottom: 2px solid var(--yellow);
     
     /* MAP */
     #map {
-        height: 60rem;
-        width: 80rem;
+        height: 40rem;
+        width: 60rem;
         margin: auto;
         border-radius: 20px;
         margin-bottom: 5rem;
@@ -1809,7 +1809,7 @@ border-bottom: 2px solid var(--yellow);
       }
     
       .map-container {
-          height: 85rem;
+          height: 61rem;
           padding-top: 4rem;
       }
      
