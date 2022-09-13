@@ -1450,11 +1450,11 @@ border-bottom: 2px solid var(--yellow);
     }
     
     #maintenance-header{
-        margin-left: 39%;
+        margin-left: 42%;
     }
     
     #maintenance-p{
-        margin: 0 2rem 0 3rem;
+        margin: 0 2rem 0 6.5rem;
     }
     
     /* DIGGING AND CLEARING */
