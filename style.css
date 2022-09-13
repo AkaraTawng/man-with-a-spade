@@ -1165,9 +1165,6 @@ border-bottom: 2px solid var(--yellow);
         display: none;
     }
     
-    
-    
-    
     /* HEADLINE  */
     .headline{
         text-align: center;
@@ -1180,7 +1177,6 @@ border-bottom: 2px solid var(--yellow);
         font-weight: normal;
         font-size: 4.5rem;
         margin-right: 2rem;
-        
     }
     
     .headline h2{
@@ -1188,17 +1184,15 @@ border-bottom: 2px solid var(--yellow);
         font-size: 3.5rem;
         font-family: 'Raleway', sans-serif;
         font-weight: 1;
-        /* margin-top: 14rem; */
         margin-bottom:4rem;
-        /* width: 90%; */
     }
     
     /* SHOWCASE CAROUSEL */
     .carousel{
         position: relative;
-        height: 90rem;
-        width: 80%;
-        margin: -8rem 0 0 13rem;
+        height: 80rem;
+        width: 70%;
+        margin: -8rem 0 0 19rem;
     }
     
     .carousel__image{
@@ -1253,11 +1247,11 @@ border-bottom: 2px solid var(--yellow);
     }
     
     .carousel__button--left /*moves button out from behind picture*/ {
-        margin-left:10%;
+        margin-left:11.5%;
     }
     
     .carousel__button--right{
-        margin-left: 78%;
+        margin-left: 78.5%;
     }
     
     .carousel__nav{
