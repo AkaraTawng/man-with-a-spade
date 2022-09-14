@@ -645,11 +645,10 @@ br.mobile-break{
     content: "";
     display: block;
     margin: 0 auto;
-    width: 9%;
+    width: 9% !important;
     padding-top: 10px;
     border-bottom: 2px solid white;
     margin-left:2.8%;
-    /* margin-bottom: 5rem; */
 }
 
 #accordion-container{
@@ -681,7 +680,7 @@ br.mobile-break{
     position: absolute;
     top: 80%;
     width: 26%;
-    margin-left: 0.6rem;
+    margin-left: 6rem;
     height: 1.5px;
     background-color:white;
     transform: scaleX(0);
@@ -689,11 +688,11 @@ br.mobile-break{
 }
 
 #accordion-container button:nth-of-type(2)::before{
-    width: 32%;
+    width: 34%;
 }
 
 #accordion-container button:nth-of-type(3)::before{
-    width: 40%;
+    width: 45%;
 }
 
 .accordion:focus::before{
@@ -1457,7 +1456,7 @@ border-bottom: 2px solid var(--yellow);
         content: '';
         position: absolute;
         top: 80%;
-        width: 20%;
+        /* width: 20%; */
         margin-left: 0.6rem;
         height: 1.5px;
         background-color:white;
@@ -1466,11 +1465,11 @@ border-bottom: 2px solid var(--yellow);
     }
     
     #accordion-container button:nth-of-type(2)::before{
-        width: 26%;
+        /* width: 26%; */
     }
     
     #accordion-container button:nth-of-type(3)::before{
-        width: 35%;
+        /* width: 35%; */
     }
     
     .accordion:focus::before{
@@ -2155,15 +2154,15 @@ border-bottom: 2px solid var(--yellow);
 }
 
 .accordion::before {
-    margin-left: 2rem !important;
+    margin-left: 2rem;
 }
 
 #accordion-container button:nth-of-type(2)::before{
-    width: 35% !important;
+    width: 35%;
 }
 
 #accordion-container button:nth-of-type(3)::before{
-    width: 47% !important;
+    width: 47%;
 }
 
 .panel {
@@ -2461,7 +2460,7 @@ width: 140%;
 
 #phone-icon{
     width: 3rem;
-    margin-left: -1rem !important;
+    margin-left: -1rem;
     margin-top: -4.5rem;
 }
 
@@ -2488,16 +2487,16 @@ width: 140%;
 }
 
 .accordion::before {
-    margin-left: 1.2rem !important;
+    margin-left: 1.2rem;
     width: 50%;
 }
 
 #accordion-container button:nth-of-type(2)::before{
-    width: 65% !important;
+    width: 65%;
 }
 
 #accordion-container button:nth-of-type(3)::before{
-    width: 47% !important;
+    width: 47%;
 }
 
 .panel {
