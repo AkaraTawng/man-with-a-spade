@@ -592,7 +592,6 @@ br.mobile-break{
     text-decoration: none;
 }
 
-
 #phone-container{
     /* color: blanchedalmond; */
     color: white;
@@ -639,7 +638,7 @@ br.mobile-break{
 #faqheader{
     margin-left: 45%;
     padding-top: 6rem;
-    font-size: 5.5rem;
+    font-size: 3rem !important;
 }
 
 #faqheader::after{
@@ -654,14 +653,14 @@ br.mobile-break{
 }
 
 #accordion-container{
-    margin-left: 3.5rem;
-    width: 90%;
+    margin-left: 9.5rem !important;
+    width: 70% !important;
     border: 2px solid white;
 }
 
 .accordion {
     font-family: 'Raleway', sans-serif;
-    height: 15rem;
+    height: 9rem !important;
     background-color: rgba(0,0,0,0.3);
     color: white;
     cursor: pointer;
@@ -669,10 +668,11 @@ br.mobile-break{
     border: none;
     text-align: center;
     outline: none;
-    font-size: 2.7rem;
+    font-size: 1.8rem !important;
     transition: 0.4s;
     font-weight: bold;
     position: relative;
+    padding: 10rem 0 0 -2rem !important;
   }
 
 /* ACCORDION UNDERLINE ANIMATION */  
@@ -730,9 +730,10 @@ overflow: hidden;
 transition: max-height 0.2s ease-out;
 text-align: center;
 font-family: 'Raleway', sans-serif;
-font-size: 1.9rem;
+font-size: 1.2rem !important;
 font-weight: bold;
 color: black;
+padding: 0 2rem;
 }
 
 .panel p{
