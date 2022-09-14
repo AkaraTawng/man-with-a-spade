@@ -531,10 +531,10 @@ br.mobile-break{
 }
 
 #contact-header{
-    margin-left: 38%;
-    margin-top: 11rem;
+    margin-left: 41% !important;
+    margin-top: -3rem !important;
     padding-top: 5.5rem;
-    font-size: 5.5rem;
+    font-size: 3rem !important;
 }
 
 #contact-header::after{
@@ -544,17 +544,16 @@ br.mobile-break{
     width: 20%;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left: 9%;
+    margin-left: 4.5% !important;
     margin-bottom: 5rem;
 }
 
 #email-container{
     color: white;
-    height: 30rem;
+    height: 23rem !important;
     border: solid 1px white;
     padding: 8rem 2.6rem 8rem 2.6rem;
     background-color: rgba(0,0,0,0.2);
-    margin-left: -1rem;
 }
 
 #email:hover{
@@ -562,14 +561,14 @@ br.mobile-break{
 }
 
 #email-icon{
-    width: 8rem;
+    width: 5rem !important;
     margin-bottom: 3rem;
     margin-top: -3.5rem;
-    margin-left:15.5rem;
+    margin-left: 10rem !important;
 }
 
 #by-email{
-    font-size: 3rem;
+    font-size: 2rem !important;
     margin-top: -2rem;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -578,15 +577,15 @@ br.mobile-break{
 #email{
     color:blanchedalmond;
     text-decoration: none;
-    font-size: 2.8rem;
+    font-size: 1.8rem !important;
     font-family: 'Raleway', sans-serif;
 }
 
 #phone-icon{
-    width: 8rem;
+    width: 5rem !important;
     margin-bottom: 3.3rem;
     margin-top: -3.5rem;
-    margin-left: 7rem;
+    margin-left: 3.5rem !important;
 }
 
 #phone-container a {
@@ -597,8 +596,8 @@ br.mobile-break{
 #phone-container{
     /* color: blanchedalmond; */
     color: white;
-    height: 30rem;
-    width: 42rem;
+    height: 23rem !important;
+    width: 29rem !important;
     border: solid 1px white ;
     padding: 8rem 8.7rem 8rem 8.7rem;
     background-color: rgba(0,0,0,0.2);
@@ -606,7 +605,7 @@ br.mobile-break{
 }
 
 #by-phone{
-    font-size: 3rem;
+    font-size: 2rem !important;
     margin-top: -2rem;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -614,9 +613,10 @@ br.mobile-break{
 
 #phone-number{
     color:blanchedalmond;
-    font-size: 2.8rem;
+    font-size: 1.8rem !important;
     font-family: 'Raleway', sans-serif;
-    margin-left: 2.2rem;
+    margin-left: 0rem !important;
+    white-space: nowrap;
 }
 
 #phone-number:hover {
