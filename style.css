@@ -263,7 +263,7 @@ body {
 h3{
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 1;
     margin-top: 2%;
 }
@@ -271,7 +271,10 @@ h3{
 /* SERVICES */
 #services-header{
     margin-top: 3rem;
-    margin-left: 52rem;
+    margin-left: 42rem !important;
+    font-size: 3rem !important;
+    font-family:'Raleway', sans-serif;
+    color: white;
 }
 
 #services-container{
@@ -282,20 +285,11 @@ h3{
     height: 380rem;
 }
 
-.all-services-container h2{
-    margin-top: 10rem;
-    font-size:5.5rem;
-    color: white;
-    font-family:'Raleway', sans-serif;
-    font-weight: 1;
-    margin-left: 41% !important;
-}
-
 /* services subheaders shared styles */
 .all-services-container h3{
-    margin-top: 7rem;
+    margin-top: 8rem;
     margin-bottom: 3rem;
-    font-size: 5rem;
+    font-size: 3rem !important;
     color: white;
     font-family: 'Raleway', sans-serif;
 }
@@ -303,7 +297,7 @@ h3{
 /* services paragraphs shared styles */
 .all-services-container p{
     color: white;
-    font-size: 2.8rem;
+    font-size: 1.8rem !important;
     font-family: 'Raleway', sans-serif;
     text-align: justify;
 }
@@ -321,11 +315,12 @@ h3{
 
 /* PONDS */
 #ponds-header{
-    margin-left: 45%;
+    margin-left: 49% !important;
+    margin-top: 10.5rem;
 }
 
 #ponds-container{
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 #ponds-p{
@@ -352,7 +347,7 @@ h3{
 }
 
 #flowerbeds-p{
-    margin: 0 2rem 0 2rem;  
+    margin: 0 2rem 0 6rem !important;  
 }
 
 /* LAWN MOWING */
@@ -364,6 +359,7 @@ h3{
 
 #mowing-header{
     margin-left: 43%;
+    margin-top: 10.5rem;
 }
 
 #mowing-p{
@@ -380,6 +376,7 @@ h3{
 
 #weeding-header{
      margin-left: 42%;
+     margin-top: 12rem;
 }
 
 #weeding-p{
@@ -396,10 +393,11 @@ h3{
 
 #maintenance-header{
     margin-left: 39%;
+    margin-top: 10rem;
 }
 
 #maintenance-p{
-    margin: 0 2rem 0 3rem;
+    margin: 0 2rem 0 6rem !important;
 }
 
 /* DIGGING AND CLEARING */
@@ -412,12 +410,13 @@ h3{
 }
 
 #digging-and-clearing-header{
-    margin-left: 33%;
+    margin-left: 36% !important;
     width: 100%;
+    margin-top: 10rem;
 }
 
 #digging-and-clearing-p{
-    margin: 0 2rem 0 3rem;
+    margin: 0 2rem 0 5rem !important; 
 }
 
 br.mobile-break{
@@ -433,11 +432,12 @@ br.mobile-break{
 }
 
 #wildlife-gardening-header{
-    margin-left: 35%;
+    margin-left: 37% !important;
+    margin-top: 11.5rem;
 }
 
 #wildlife-gardening-p{
-    margin: 0 2rem 0 3rem;
+    margin: 0 2rem 0 7rem !important;
 }
 
 #wildlife-trust-link{
@@ -472,17 +472,17 @@ br.mobile-break{
 
 #garden-restorations-header{
     margin-left: 34%;
+    margin-top: 10rem;
 }
 
 #garden-restorations-p{
-    margin: 0 2rem 0 3rem;
+    margin: 0 2rem 0 7rem !important;
 }
 
 /* OTHER SERVICES */
 #other-services-header{
-    margin-left: 34rem;
+    margin-left: 31rem !important;
     margin-top: 9rem;
-
 }
 
 #other-services-header::after{
@@ -492,13 +492,13 @@ br.mobile-break{
     width: 35%;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left: 11%;
+    margin-left: 6% !important;
 }
 
 #other-services-p{
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 2.8rem;
+    font-size: 1.8rem !important;
     margin: 0 10rem 0 10rem;
 }
 
@@ -1055,7 +1055,7 @@ border-bottom: 2px solid var(--yellow);
     /* SERVICES */
     #services-header{
         margin-top: 3rem;
-        margin-left: 50rem !important;
+        margin-left: 50rem;
         font-size: 4.5rem;
     }
     
