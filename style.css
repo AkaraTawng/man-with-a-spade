@@ -755,8 +755,8 @@ border-bottom: 2px solid var(--yellow);
 
 /* MAP */
 #map {
-    height: 60rem;
-    width: 80rem;
+    height: 30rem !important;
+    width: 50rem !important;
     margin: auto;
     border-radius: 20px;
     margin-bottom: 5rem;
@@ -764,7 +764,7 @@ border-bottom: 2px solid var(--yellow);
   }
 
   .map-container {
-      height: 85rem;
+      height: 50rem !important;
       padding-top: 4rem;
   }
  
