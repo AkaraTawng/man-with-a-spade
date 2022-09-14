@@ -118,12 +118,12 @@ body {
     margin-top: 10rem !important;
     margin-bottom: 14rem;
 }
+
 .headline h1{
     color: var(--yellow);
     font-weight: normal;
     font-size: 3.5rem !important;
-    margin-right: 2rem;
-    
+    margin-right: 2rem; 
 }
 
 .headline h2{
@@ -137,9 +137,9 @@ body {
 /* SHOWCASE CAROUSEL */
 .carousel{
     position: relative;
-    height: 90rem;
-    width: 80%;
-    margin: -8rem 0 0 13rem;
+    height: 60rem !important;
+    width: 65% !important;
+    margin: -8rem 0 0 17rem !important;
 }
 
 .carousel__image{
@@ -194,7 +194,7 @@ body {
 }
 
 .carousel__button--left /*moves button out from behind picture*/ {
-    margin-left:10%;
+    margin-left:9.5% !important;
 }
 
 .carousel__button--right{
