@@ -31,7 +31,7 @@ body {
     position: fixed;
     width: 100vw;
     z-index:1;
-    height: 6rem !important;
+    height: 6rem;
 }
 
 .brand-title-mobile {
@@ -46,8 +46,8 @@ body {
 
 .navbar-links li {
     list-style: none; 
-    font-size: 1.3rem !important;
-    margin-right: 10rem !important;
+    font-size: 1.3rem ;
+    margin-right: 8rem ;
 }
 
 /* NAV UNDERLINE ANIMATION */
@@ -55,7 +55,7 @@ body {
     content: '';
     position: absolute;
     top: 80%;
-    width: 71%;
+    width: 63%;
     margin-left: 0.1rem;
     height: 1.5px;
     background-color:rgb(241, 226, 16);
@@ -65,18 +65,18 @@ body {
 
 /* SERVICES NAV LINK */
 .navbar-links li:nth-of-type(2) a::before {
-    width: 75%;
+    width: 69%;
 }
 
 /* CONTACT NAV LINK */
 .navbar-links li:nth-of-type(3) a::before {
-    width: 72%;
+    width: 73%;
     margin-left: -0.1rem;
 }
 
 /* FAQ NAV LINK */
 .navbar-links li:nth-of-type(4) a::before {
-    width: 68%;
+    width: 56%;
 }
 
 .navbar-links li a:hover::before{
@@ -102,8 +102,8 @@ body {
 }
 
 #logo{
-    margin-left: 0rem !important;    
-    height: 4rem !important;
+    margin-left: 0rem ;    
+    height: 3.5rem;
 }
 
 
@@ -115,20 +115,20 @@ body {
 .headline{
     text-align: center;
     font-family:'Questrial', sans-serif;
-    margin-top: 10rem !important;
+    margin-top: 10rem ;
     margin-bottom: 14rem;
 }
 
 .headline h1{
     color: var(--yellow);
     font-weight: normal;
-    font-size: 3.5rem !important;
+    font-size: 3.5rem ;
     margin-right: 2rem; 
 }
 
 .headline h2{
     color: white;
-    font-size: 3rem !important;
+    font-size: 3rem ;
     font-family: 'Raleway', sans-serif;
     font-weight: 1;
     margin-bottom:4rem;
@@ -137,22 +137,22 @@ body {
 /* SHOWCASE CAROUSEL */
 .carousel{
     position: relative;
-    height: 60rem !important;
-    width: 65% !important;
-    margin: -8rem 0 -25rem 17rem !important;
+    height:35rem ;
+    width: 65% ;
+    margin: -8rem 0 0 17rem ;
 }
 
 .carousel__image{
     width: 100%;
-    height: 80%;
+    height: 100%;
     object-fit: cover; /*crops image to avoid distortion*/
     border-radius: 30px;
 }
 
 .carousel__track-container /* carousel images background container*/ {
-    height: 60%;
+    height: 80%;
     width: 60%;
-    margin: -2rem 0 0 17%;
+    margin: -2rem 0 0 17.5%;
     position: relative;
     overflow: hidden;
     border-radius: 30px;
@@ -176,7 +176,7 @@ body {
 
 .carousel__button{
     position: absolute;
-    top: 25%; /*moves chevron to middle of image*/
+    top: 38%; /*moves chevron to middle of image*/
     transform: translateY(-50%); /*center button y-axis*/
     background: transparent;
     border: 0;
@@ -194,7 +194,7 @@ body {
 }
 
 .carousel__button--left /*moves button out from behind picture*/ {
-    margin-left:9.5% !important;
+    margin-left:11% ;
 }
 
 .carousel__button--right{
@@ -205,13 +205,14 @@ body {
     display: flex; /* enables justify content center */
     justify-content: center;
     padding: 0.1rem 0; /* y-axis indicator paddding */
-    margin-top: -4rem; /* Moves dots closer to image on y-axis */
+    margin-top: 1rem; /* Moves dots closer to image on y-axis */
 }
 
 .carousel__indicator{
     border: 0;
     border-radius: 50%; /* makes indicators round */
     height: 13px;
+    width: 13px;
     background: rgba(255, 255, 255, 0.3);
     margin: 0.6rem; /* adds space between indicators */
 }
@@ -228,9 +229,8 @@ body {
 .body-title{ /* about header */
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 3rem !important;
+    font-size: 3rem ;
     font-weight: 1;
-    padding-top: 5rem;
     padding-bottom: 1rem;
     text-align: center;
 }
@@ -248,9 +248,9 @@ body {
 .body-text{ /* about paragraph */
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.5rem !important;
+    font-size: 1.5rem ;
     font-weight: 1;
-    padding:0 5rem 3rem 2.3rem;
+    padding:0 4rem 3rem 3.5rem;
     text-align: justify;
 }
 
@@ -270,14 +270,14 @@ h3{
 /* SERVICES */
 #services-header{
     margin-top: 3rem;
-    margin-left: 42rem !important;
-    font-size: 3rem !important;
+    margin-left: 42rem ;
+    font-size: 3rem ;
     font-family:'Raleway', sans-serif;
     color: white;
 }
 
 #services-container{
-    margin-top: 1rem;
+    margin-top: -5rem;
 }
 
 .all-services-container{
@@ -288,7 +288,7 @@ h3{
 .all-services-container h3{
     margin-top: 8rem;
     margin-bottom: 3rem;
-    font-size: 3rem !important;
+    font-size: 3rem ;
     color: white;
     font-family: 'Raleway', sans-serif;
 }
@@ -296,7 +296,7 @@ h3{
 /* services paragraphs shared styles */
 .all-services-container p{
     color: white;
-    font-size: 1.8rem !important;
+    font-size: 1.8rem ;
     font-family: 'Raleway', sans-serif;
     text-align: justify;
 }
@@ -314,7 +314,7 @@ h3{
 
 /* PONDS */
 #ponds-header{
-    margin-left: 49% !important;
+    margin-left: 49% ;
     margin-top: 10.5rem;
 }
 
@@ -323,7 +323,7 @@ h3{
 }
 
 #ponds-p{
-    margin: 0 2rem 0 3rem;
+    margin: 0 2rem 0 4.5rem;
 }
 
 #ponds-container{
@@ -346,7 +346,7 @@ h3{
 }
 
 #flowerbeds-p{
-    margin: 0 2rem 0 6rem !important;  
+    margin: 0 2rem 0 6rem ;  
 }
 
 /* LAWN MOWING */
@@ -357,12 +357,12 @@ h3{
 }
 
 #mowing-header{
-    margin-left: 43%;
+    margin-left: 45%;
     margin-top: 10.5rem;
 }
 
 #mowing-p{
-    margin: 0 2rem 0 3rem; 
+    margin: 0 1rem 0 6rem; 
 }
 
 /* WEEDING */
@@ -379,7 +379,7 @@ h3{
 }
 
 #weeding-p{
-    margin: 0 2rem 0 2rem; 
+    margin: 0 1.5rem 0 6rem; 
 }
 
 /* MAINTENANCE */
@@ -391,12 +391,12 @@ h3{
 }
 
 #maintenance-header{
-    margin-left: 39%;
+    margin-left: 43%;
     margin-top: 10rem;
 }
 
 #maintenance-p{
-    margin: 0 2rem 0 6rem !important;
+    margin: 0 2rem 0 6rem ;
 }
 
 /* DIGGING AND CLEARING */
@@ -409,13 +409,13 @@ h3{
 }
 
 #digging-and-clearing-header{
-    margin-left: 36% !important;
+    margin-left: 36% ;
     width: 100%;
     margin-top: 10rem;
 }
 
 #digging-and-clearing-p{
-    margin: 0 2rem 0 5rem !important; 
+    margin: 0 2rem 0 5rem ; 
 }
 
 br.mobile-break{
@@ -431,18 +431,18 @@ br.mobile-break{
 }
 
 #wildlife-gardening-header{
-    margin-left: 37% !important;
+    margin-left: 37% ;
     margin-top: 11.5rem;
 }
 
 #wildlife-gardening-p{
-    margin: 0 2rem 0 7rem !important;
+    margin: 0 2rem 0 7rem ;
 }
 
 #wildlife-trust-link{
     text-decoration: none;
     font-weight: bolder;
-    color: var(--yellow) !important;
+    color: var(--yellow) ;
 }
 
 #wildlife-trust-link:visited{
@@ -475,12 +475,12 @@ br.mobile-break{
 }
 
 #garden-restorations-p{
-    margin: 0 2rem 0 7rem !important;
+    margin: 0 2rem 0 7rem ;
 }
 
 /* OTHER SERVICES */
 #other-services-header{
-    margin-left: 31rem !important;
+    margin-left: 31rem ;
     margin-top: 9rem;
 }
 
@@ -491,13 +491,13 @@ br.mobile-break{
     width: 35%;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left: 6% !important;
+    margin-left: 6% ;
 }
 
 #other-services-p{
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.8rem !important;
+    font-size: 1.8rem ;
     margin: 0 10rem 0 10rem;
 }
 
@@ -505,11 +505,11 @@ br.mobile-break{
     cursor: pointer;
     text-decoration: none;
     font-weight: bold;    
-    color: var(--yellow) !important;
+    color: var(--yellow);
 }
 
 #other-service-contact:visited{
-    color: rgb(255, 255, 255);
+    color:  var(--yellow);
 }
 
 #other-service-contact:hover{
@@ -530,10 +530,10 @@ br.mobile-break{
 }
 
 #contact-header{
-    margin-left: 41% !important;
-    margin-top: -3rem !important;
+    margin-left: 41% ;
+    margin-top: -3rem ;
     padding-top: 5.5rem;
-    font-size: 3rem !important;
+    font-size: 3rem ;
 }
 
 #contact-header::after{
@@ -543,13 +543,13 @@ br.mobile-break{
     width: 20%;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left: 4.5% !important;
+    margin-left: 4.5% ;
     margin-bottom: 5rem;
 }
 
 #email-container{
     color: white;
-    height: 23rem !important;
+    height: 23rem ;
     border: solid 1px white;
     padding: 8rem 2.6rem 8rem 2.6rem;
     background-color: rgba(0,0,0,0.2);
@@ -560,14 +560,14 @@ br.mobile-break{
 }
 
 #email-icon{
-    width: 5rem !important;
+    width: 5rem ;
     margin-bottom: 3rem;
     margin-top: -3.5rem;
-    margin-left: 10rem !important;
+    margin-left: 10rem ;
 }
 
 #by-email{
-    font-size: 2rem !important;
+    font-size: 2rem ;
     margin-top: -2rem;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -576,15 +576,15 @@ br.mobile-break{
 #email{
     color:blanchedalmond;
     text-decoration: none;
-    font-size: 1.8rem !important;
+    font-size: 1.8rem ;
     font-family: 'Raleway', sans-serif;
 }
 
 #phone-icon{
-    width: 5rem !important;
+    width: 5rem ;
     margin-bottom: 3.3rem;
     margin-top: -3.5rem;
-    margin-left: 3.5rem !important;
+    margin-left: 3.5rem ;
 }
 
 #phone-container a {
@@ -594,8 +594,8 @@ br.mobile-break{
 #phone-container{
     /* color: blanchedalmond; */
     color: white;
-    height: 23rem !important;
-    width: 29rem !important;
+    height: 23rem ;
+    width: 29rem ;
     border: solid 1px white ;
     padding: 8rem 8.7rem 8rem 8.7rem;
     background-color: rgba(0,0,0,0.2);
@@ -603,7 +603,7 @@ br.mobile-break{
 }
 
 #by-phone{
-    font-size: 2rem !important;
+    font-size: 2rem ;
     margin-top: -2rem;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -611,9 +611,9 @@ br.mobile-break{
 
 #phone-number{
     color:blanchedalmond;
-    font-size: 1.8rem !important;
+    font-size: 1.8rem ;
     font-family: 'Raleway', sans-serif;
-    margin-left: 0rem !important;
+    margin-left: 0rem ;
     white-space: nowrap;
 }
 
@@ -631,35 +631,34 @@ br.mobile-break{
 #faqcontainer{
     /* height: 50rem; */
     margin-top: 1rem;
-    margin-left: 6em;
+    margin-left: 7em;
 }
 
 #faqheader{
-    margin-left: 45%;
+    margin-left: 46%;
     padding-top: 6rem;
-    font-size: 3rem !important;
+    font-size: 3rem ;
 }
 
 #faqheader::after{
     content: "";
     display: block;
     margin: 0 auto;
-    width: 9%;
+    width: 9% ;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left:2.8%;
-    /* margin-bottom: 5rem; */
+    margin-left:1%;
 }
 
 #accordion-container{
-    margin-left: 9.5rem !important;
-    width: 70% !important;
+    margin-left: 9.5rem ;
+    width: 70% ;
     border: 2px solid white;
 }
 
 .accordion {
     font-family: 'Raleway', sans-serif;
-    height: 9rem !important;
+    height: 9rem ;
     background-color: rgba(0,0,0,0.3);
     color: white;
     cursor: pointer;
@@ -667,11 +666,11 @@ br.mobile-break{
     border: none;
     text-align: center;
     outline: none;
-    font-size: 1.8rem !important;
+    font-size: 1.8rem ;
     transition: 0.4s;
     font-weight: bold;
     position: relative;
-    padding: 10rem 0 0 -2rem !important;
+    padding: 10rem 0 0 -2rem ;
   }
 
 /* ACCORDION UNDERLINE ANIMATION */  
@@ -680,7 +679,7 @@ br.mobile-break{
     position: absolute;
     top: 80%;
     width: 26%;
-    margin-left: 0.6rem;
+    margin-left: 6rem;
     height: 1.5px;
     background-color:white;
     transform: scaleX(0);
@@ -688,11 +687,11 @@ br.mobile-break{
 }
 
 #accordion-container button:nth-of-type(2)::before{
-    width: 32%;
+    width: 34%;
 }
 
 #accordion-container button:nth-of-type(3)::before{
-    width: 40%;
+    width: 45%;
 }
 
 .accordion:focus::before{
@@ -729,7 +728,7 @@ overflow: hidden;
 transition: max-height 0.2s ease-out;
 text-align: center;
 font-family: 'Raleway', sans-serif;
-font-size: 1.2rem !important;
+font-size: 1.2rem ;
 font-weight: bold;
 color: black;
 padding: 0 2rem;
@@ -741,7 +740,7 @@ margin: 4% 0 4% 0;
 
 #faq_bridport_link{
     text-decoration: none;
-    color: var(--green)!important;
+    color: var(--green);
 }
 
 #faq_bridport_link:hover{
@@ -754,16 +753,16 @@ border-bottom: 2px solid var(--yellow);
 
 /* MAP */
 #map {
-    height: 30rem !important;
-    width: 50rem !important;
+    height: 30rem ;
+    width: 50rem ;
     margin: auto;
     border-radius: 20px;
     margin-bottom: 5rem;
-    margin-top: 12rem;
+    margin-top: 8rem;
   }
 
   .map-container {
-      height: 50rem !important;
+      height: 50rem ;
       padding-top: 4rem;
   }
  
@@ -775,9 +774,9 @@ border-bottom: 2px solid var(--yellow);
     position: sticky;
     bottom: 30px;
     text-decoration: none;
-    padding: 1rem 1rem !important;
+    padding: 1rem 1rem ;
     font-family: sans-serif;
-    font-size: 1rem !important;
+    font-size: 1rem ;
     color: var(--yellow);
     background: rgba(202, 195, 195, 0.4);
     border-radius: 100px;
@@ -804,7 +803,7 @@ border-bottom: 2px solid var(--yellow);
   /********************   1920 *************************/
 
 
-@media (max-width: 1920px) {
+@media (min-width: 1920px) {
 
     /* NAVBAR */
     .navbar {
@@ -816,7 +815,7 @@ border-bottom: 2px solid var(--yellow);
         position: fixed;
         width: 100vw;
         z-index:1;
-        height: 8rem;
+        height: 6rem;
     }
     
     .brand-title-mobile {
@@ -924,7 +923,7 @@ border-bottom: 2px solid var(--yellow);
         height: 65rem;
         width: 70%;
         margin: -8rem 0 0 19rem;
-        margin-bottom: -20rem;
+        margin-bottom: -20rem ;
     }
     
     .carousel__image{
@@ -1219,7 +1218,7 @@ border-bottom: 2px solid var(--yellow);
     #wildlife-trust-link{
         text-decoration: none;
         font-weight: bolder;
-        color: var(--yellow) !important;
+        color: var(--yellow) ;
     }
     
     #wildlife-trust-link:visited{
@@ -1282,7 +1281,7 @@ border-bottom: 2px solid var(--yellow);
         cursor: pointer;
         text-decoration: none;
         font-weight: bold;    
-        color: var(--yellow) !important;
+        color: var(--yellow) ;
     }
     
     #other-service-contact:visited{
@@ -1296,8 +1295,8 @@ border-bottom: 2px solid var(--yellow);
     /* CONTACT */
     #contact-container{
         height: 50rem; 
-        margin-bottom: -5rem;
         margin-top: 10rem;
+        margin-bottom: 1rem;
     }
     
     #flex-container{
@@ -1456,7 +1455,7 @@ border-bottom: 2px solid var(--yellow);
         content: '';
         position: absolute;
         top: 80%;
-        width: 20%;
+        /* width: 20%; */
         margin-left: 0.6rem;
         height: 1.5px;
         background-color:white;
@@ -1517,7 +1516,7 @@ border-bottom: 2px solid var(--yellow);
     
     #faq_bridport_link{
         text-decoration: none;
-        color: var(--green)!important;
+        color: var(--green);
     }
     
     #faq_bridport_link:hover{
@@ -1582,9 +1581,6 @@ border-bottom: 2px solid var(--yellow);
 
 
 @media (max-width: 1280px) {
-    .brand-title {
-        font-size: 2rem;
-    }
 
     .navbar {
         height: 5rem;
@@ -1603,7 +1599,7 @@ border-bottom: 2px solid var(--yellow);
 
     .headline h1{
         font-size: 3.4rem;
-        margin-top: -5rem;
+        margin-top: -2rem;
     }
 
     .headline h2 {
@@ -1611,9 +1607,9 @@ border-bottom: 2px solid var(--yellow);
     }
 
     .carousel{
-        height: 45rem;
+        height: 40rem;
         width: 70%;
-        margin: -8rem 0 7rem 13rem;
+        margin: -8rem 0 3rem 13rem;
     }
 
     /* about section */
@@ -1622,23 +1618,24 @@ border-bottom: 2px solid var(--yellow);
     }
 
     .body-text{
-        font-size: 1.6rem !important;
-        margin-left: 3rem;
+        font-size: 1.6rem ;
+        margin-left: 1rem;
         margin-bottom: -1rem;
     }
 
     /* services */
     #services-header {
         font-size: 3.2rem;
-        margin-left: 34rem !important;
+        margin-left: 34rem ;
     }
 
     .individual-service-containers {
         height: 22rem;
+        padding-top: 0;
     }
 
     .all-services-container{
-        height: 200rem;
+        height: 209rem;
     }
 
     .all-services-container h3 {
@@ -1652,6 +1649,7 @@ border-bottom: 2px solid var(--yellow);
 
     #ponds-header{
         margin-left: 48.5%;
+        margin-top: 5rem;
     }
     
     #ponds-p{
@@ -1660,6 +1658,7 @@ border-bottom: 2px solid var(--yellow);
 
     #flowerbeds-header{
         margin-left: 41%;
+        margin-top: -1rem;
     }
 
     #flowerbeds-p{
@@ -1668,6 +1667,7 @@ border-bottom: 2px solid var(--yellow);
     
     #mowing-header{
         margin-left: 45%;
+        margin-top: 5rem;
     }
 
     #mowing-p{
@@ -1676,6 +1676,7 @@ border-bottom: 2px solid var(--yellow);
 
     #weeding-header{
         margin-left: 44%;
+        margin-top: 6rem;
    }
 
    #weeding-p{
@@ -1684,6 +1685,7 @@ border-bottom: 2px solid var(--yellow);
 
    #maintenance-header{
     margin-left: 41%;
+    margin-top: 5rem;
 }
 
 #maintenance-p{
@@ -1694,6 +1696,7 @@ border-bottom: 2px solid var(--yellow);
 #digging-and-clearing-header{
     margin-left: 33%;
     width: 100%;
+    margin-top: -1rem;
 }
 
 #digging-and-clearing-p{
@@ -1702,6 +1705,7 @@ border-bottom: 2px solid var(--yellow);
 
 #wildlife-gardening-header{
     margin-left: 35%;
+    margin-top: 5.5rem;
 }
 
 #wildlife-gardening-p{
@@ -1710,6 +1714,7 @@ border-bottom: 2px solid var(--yellow);
 
 #garden-restorations-header{
     margin-left: 34%;
+    margin-top: -0.5rem;
 }
 
 #garden-restorations-p{
@@ -1747,6 +1752,7 @@ border-bottom: 2px solid var(--yellow);
 
 #email-container{
     height: 22rem;
+    margin-left: -2rem;
 }
 
 #email-icon{
@@ -1816,7 +1822,7 @@ border-bottom: 2px solid var(--yellow);
 }
 
 .map-container {
-    height: 45rem;
+    height: 48rem;
 }
 
 #back-to-top {
@@ -1834,12 +1840,12 @@ border-bottom: 2px solid var(--yellow);
 
 @media (max-width: 768px) {
     .headline h1 {
-        margin-top: 13rem;
-        margin-left: -10% !important;
+        padding-top: 4rem;
+        margin-left: -10%;
     }
 
     .headline h2{
-      margin-left: -21% !important;
+      margin-left: -21% ;
     }
    
     .navbar-links{
@@ -1852,6 +1858,7 @@ border-bottom: 2px solid var(--yellow);
         align-items: flex-start;
         height: 6rem;
         width: 100%;
+        padding-bottom: 5rem;
     }
 
     .navbar-links ul{ /* hamburger links background */
@@ -1864,12 +1871,12 @@ border-bottom: 2px solid var(--yellow);
 
     .navbar-links li{
         text-align: center;
-        font-size: 1.4rem !important;
-        margin-left: 8rem;
+        font-size: 1.4rem ;
+        margin-left: 7rem;
     }
 
     .navbar-links li a::before {
-        width: 100% !important;
+        width: 100% ;
     }
 
     .navbar-links a{
@@ -1882,14 +1889,14 @@ border-bottom: 2px solid var(--yellow);
 
     .toggle-button{
         display: flex;
-        width: 3rem !important;
-        border-radius: 50% !important;
+        width: 3rem ;
+        border-radius: 50% ;
         position: absolute;
         flex-direction: column;
         justify-content: space-between;
         right: 1rem;
         top: -0.4rem;
-        margin: 2rem 2rem -1% 0 !important;
+        margin: 2rem 2rem -1% 0 ;
     }
 
     .svgToggle:hover{
@@ -1906,27 +1913,27 @@ border-bottom: 2px solid var(--yellow);
     }
 
     #logo{
-        height: 4rem;
-        margin: 0 0 0 2rem;
-        width: 4rem;
+        height: 3rem;
+        margin: 4.5rem 0 0 2rem;
+        width: 3rem;
     }
     
     .headline h1{
         font-size: 3rem;
-        width: 100% !important;
-        margin-left: 0rem !important;
+        width: 100% ;
+        margin-left: 0rem ;
         margin-top: -5rem;
     }
 
     .headline h2 { 
         font-size: 2rem;
-        margin-left: 0rem !important;
+        margin-left: 0rem ;
     }
 
     .carousel{
-        height: 40rem;
+        height: 33rem;
         width: 90%;
-        margin: -8rem 0 6rem 3.7rem;
+        margin: -8rem 0 2rem 3.7rem;
     }
 
     .carousel__button--left /*moves button out from behind picture*/ {
@@ -1939,15 +1946,15 @@ border-bottom: 2px solid var(--yellow);
     }
 
     .body-text{
-        font-size: 1.4rem !important;
-        margin-left: -2%;
+        font-size: 1.4rem ;
+        margin-left: -4%;
         width: 110%;
     }
 
     /* services */
     #services-header {
         font-size: 2.5rem;
-        margin-left: 19rem !important;
+        margin-left: 19rem ;
     }
 
     .all-services-container{
@@ -1967,7 +1974,7 @@ border-bottom: 2px solid var(--yellow);
     }
 
     #ponds-header{
-        margin-top: -0.1rem;
+        margin-top: 4rem;
         margin-left: 49%;
     }
 
@@ -1988,7 +1995,7 @@ border-bottom: 2px solid var(--yellow);
     
     #mowing-header{
         margin-left: 45%;
-        margin-top: 0;
+        margin-top: 4.5rem;
     }
 
     #mowing-p {
@@ -1998,7 +2005,7 @@ border-bottom: 2px solid var(--yellow);
 
     #weeding-header{
         margin-left: 44%;
-        margin-top: 1%;
+        margin-top: 5rem;
    }
 
    #weeding-p{
@@ -2008,6 +2015,7 @@ border-bottom: 2px solid var(--yellow);
 
    #maintenance-header{
     margin-left: 37%;
+    margin-top: 3.5rem;
 }
 
 #maintenance-p{
@@ -2028,7 +2036,7 @@ border-bottom: 2px solid var(--yellow);
 
 #wildlife-gardening-header{
     margin-left: 30%;
-    margin-top: 1%;
+    margin-top: 5rem;
 }
 
 #wildlife-gardening-p{
@@ -2052,7 +2060,7 @@ border-bottom: 2px solid var(--yellow);
 /* other services */
 #other-services-header{
     margin-left: 11rem;
-    margin-top: 9rem;
+    margin-top: 6rem;
 }
 
 #other-services-header::after{
@@ -2068,7 +2076,7 @@ border-bottom: 2px solid var(--yellow);
 /* contact */
 #contact-container {
     margin-top: 6rem;
-    height: 68rem !important;
+    height: 68rem ;
 }
 
 #flex-container {
@@ -2090,7 +2098,7 @@ border-bottom: 2px solid var(--yellow);
 #email-container{
     height: 20rem;
     width: 29rem; 
-    margin-left: 8.5rem !important;
+    margin-left: 9.5rem ;
 }
 
 #email-icon{
@@ -2113,7 +2121,7 @@ border-bottom: 2px solid var(--yellow);
 #phone-container{
     height: 20rem;
     width: 29rem;
-    margin-left: 8.5rem !important;
+    margin-left: 9.5rem ;
 }
 
 #by-phone{
@@ -2128,7 +2136,7 @@ border-bottom: 2px solid var(--yellow);
 
 #phone-icon{
     width: 4rem;
-    margin-left: 4rem !important;
+    margin-left: 4rem ;
 }
 
 /* faq */
@@ -2154,15 +2162,15 @@ border-bottom: 2px solid var(--yellow);
 }
 
 .accordion::before {
-    margin-left: 2rem !important;
+    margin-left: 2rem;
 }
 
 #accordion-container button:nth-of-type(2)::before{
-    width: 35% !important;
+    width: 35%;
 }
 
 #accordion-container button:nth-of-type(3)::before{
-    width: 47% !important;
+    width: 47%;
 }
 
 .panel {
@@ -2174,16 +2182,16 @@ border-bottom: 2px solid var(--yellow);
     }
 
     #map {
-        height: 30rem !important;
+        height: 30rem ;
         width: 35rem;
         margin: auto;
         border-radius: 20px;
-        margin-bottom: 0rem !important;
-        margin-top: 13rem !important;
+        margin-bottom: 0rem ;
+        margin-top: 4rem ;
       }
     
       .map-container {
-          height: 55rem;
+          height: 47rem;
           padding-top: 4rem;
       } 
 }
@@ -2195,30 +2203,27 @@ border-bottom: 2px solid var(--yellow);
 
 
 @media(max-width: 360px) {
-.headline {
-    margin-bottom: 25rem;
-}
-    
+
 .headline h1 {
     font-size: 2.2rem;
-    width: 100% !important;
-    margin-left: -0.8rem !important;
+    width: 100% ;
     margin-top: -5rem;
 }
 
 .headline h2 {
     font-size: 1.5rem;
-    margin-left: 0.5rem !important;
+    margin-left: 1rem ;
     width: 90%;
 }
+
 .toggle-button{
     position: absolute;
     right: -0.5rem;
     flex-direction: column;
     justify-content: space-between;
-    width: 31px;
-    height: 21px;
-    top: -1rem;
+    width: 2.9rem;
+    height: 3rem;
+    top: -0.5rem;
 }
 
 #logo{
@@ -2229,14 +2234,15 @@ border-bottom: 2px solid var(--yellow);
 
 /* about section */
 .body-title {
-    margin-left: -2rem;
+    margin-left: -1rem;
     font-size: 2rem;
+    margin-top: -9rem;
 }
 
 .body-text{
-    font-size: 1.2rem !important;
-    margin-left: -1rem;
-    text-align: left;
+    font-size: 1.2rem ;
+    margin-left: -2rem;
+    text-align: center;
     width: 120%;
 }
 
@@ -2247,7 +2253,7 @@ border-bottom: 2px solid var(--yellow);
  /* services */
  #services-header {
     font-size: 2.3rem;
-    margin-left: 6.5rem !important;
+    margin-left: 6.5rem ;
     margin-bottom: -3rem;
 }
 
@@ -2268,55 +2274,58 @@ border-bottom: 2px solid var(--yellow);
 }
 
 #ponds-header{
-    margin-top: -0.1rem;
+    margin-top: 3.5rem;
     margin-left: 49%;
 }
 
 #ponds-p {
     margin: 0 0 0 -0.3rem;
     width: 140%;
+    text-align: center;
 }
 
 #flowerbeds-header{
     margin-left:23%;
-    margin-top: -1.4%;
+    margin-top: -1rem;
 }
 
 #flowerbeds-p{
     margin: 0 0 0 -0.3rem;  
     width: 140%;
+    text-align: center;
 }
 
 #mowing-header{
     margin-left: 37%;
-    margin-top: 0;
+    margin-top: 4rem;
 }
 
 #mowing-p {
     margin: 0 0 0 -0.1rem;
     width: 140%;
-    text-align: left;
+    text-align: center;
 }
 
 #weeding-header{
     margin-left: 34%;
-    margin-top: 1%;
+    margin-top: 5rem;
 }
 
 #weeding-p{
 margin: 0 0 0 -0.1rem; 
 width: 140%;
-text-align: left;
+text-align: center;
 }
 
 #maintenance-header{
 margin-left: 18%;
+margin-top: 3.5rem;
 }
 
 #maintenance-p{
 margin: 0 0 0 -0.1rem;
 width: 142%;
-text-align: left;
+text-align: center;
 }
 
 #maintenance-container {
@@ -2324,8 +2333,8 @@ text-align: left;
 }
 
 #digging-and-clearing-header{
-margin-left: 33%;
-margin-top: -17%;
+margin-left: 5rem;
+margin-top: -1.5rem;
 width: 100%;
 }
 
@@ -2344,12 +2353,12 @@ br.mobile-break {
 #digging-and-clearing-p{
 margin: 0 0 0 -0.1rem;
 width: 140%;
-text-align: left;
+text-align: center;
 }
 
 #wildlife-gardening-header{
-margin-left: 23%;
-margin-top: 1%;
+margin-left: 4rem;
+margin-top: 4rem;
 }
 
 #wildlife-span-1 {
@@ -2357,15 +2366,15 @@ margin-top: 1%;
 }
 
 #wildlife-gardening-p{
-margin: 0 0 0 -0.1rem;
-text-align: left;
+margin: 0 0 0 -1rem;
+text-align: center;
 width: 140%;
 }
 
 
 #garden-restorations-header{
 margin-left: 19%;
-margin-top: -10%;
+margin-top: -1rem;
 }
 
 #garden-restorations-span-1 {
@@ -2375,11 +2384,12 @@ margin-top: -10%;
 #garden-restorations-p{
 margin: 0 0 0 -0.6rem;
 width: 140%;
+text-align: center;
 }
 
 /* other services */
 #other-services-header{
-    margin-left: 5rem;
+    margin-left: 5.5rem;
     margin-top: 5rem;
 }
 
@@ -2388,7 +2398,7 @@ width: 140%;
 }
 
 #other-services-p {
-    text-align: left;
+    text-align: center;
     font-size: 1.4rem;
     margin-left: 1rem;
     width: 85%;
@@ -2396,8 +2406,8 @@ width: 140%;
 
 /* contact */
 #contact-container {
-    margin-top: 37rem !important;
-    height: 61rem !important;
+    margin-top: 40rem ;
+    height: 61rem ;
 }
 
 #flex-container {
@@ -2419,7 +2429,7 @@ width: 140%;
 #email-container{
     height: 17rem;
     width: 19rem; 
-    margin-left: 1.2rem !important;
+    margin-left: 1.7rem ;
 }
 
 #email-icon{
@@ -2442,7 +2452,7 @@ width: 140%;
 #phone-container{
     height: 17rem;
     width: 19rem; 
-    margin-left: 1.2rem !important;
+    margin-left: 1.7rem ;
 }
 
 #by-phone{
@@ -2460,7 +2470,7 @@ width: 140%;
 
 #phone-icon{
     width: 3rem;
-    margin-left: -1rem !important;
+    margin-left: -1rem;
     margin-top: -4.5rem;
 }
 
@@ -2482,21 +2492,21 @@ width: 140%;
 }
 
 #accordion-container{
-    margin-left: -1.6rem;
+    margin-left: -1.7rem;
     width: 100%;
 }
 
 .accordion::before {
-    margin-left: 1.2rem !important;
+    margin-left: 1.2rem;
     width: 50%;
 }
 
 #accordion-container button:nth-of-type(2)::before{
-    width: 65% !important;
+    width: 65%;
 }
 
 #accordion-container button:nth-of-type(3)::before{
-    width: 47% !important;
+    width: 47%;
 }
 
 .panel {
@@ -2508,13 +2518,13 @@ width: 140%;
     }
 
 #map {
-    height: 18rem !important;
+    height: 18rem ;
     width:18rem;
     margin: auto;
-    margin-left: 1.8rem;
+    margin-left: 2.2rem;
     border-radius: 20px;
-    margin-bottom: 0rem !important;
-    margin-top: 4rem !important;
+    margin-bottom: 0rem ;
+    margin-top: 2rem ;
   }
 
   .map-container {
