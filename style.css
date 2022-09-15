@@ -2197,7 +2197,7 @@ border-bottom: 2px solid var(--yellow);
 
 
 
-@media(max-width: 360px) {
+@media(max-width: 500px) {
 
 #wrapper {
     width: 100%;
