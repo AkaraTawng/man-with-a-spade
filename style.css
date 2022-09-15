@@ -2193,11 +2193,721 @@ border-bottom: 2px solid var(--yellow);
 
 
 
-/* ******************  MOBILE  *********************** */
+
+/******************* MOBILE LARGE ************************** */
+
+
+@media(max-width: 480px) {
+
+    #wrapper {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .navbar {
+        height: 7.5rem;
+    }
+
+    .navbar-links li a::before{ 
+        top: 80%;
+        width: 100vw;
+        margin-left: 0.1rem;
+     }  
+    
+    /* SERVICES NAV LINK */
+    .navbar-links li:nth-of-type(2) a::before {
+        width: 100vw;  
+      }
+    
+    /* CONTACT NAV LINK */
+    .navbar-links li:nth-of-type(3) a::before {
+        width: 100vw; 
+    }
+    
+    /* FAQ NAV LINK */
+    .navbar-links li:nth-of-type(4) a::before {
+        width: 100vw; ;
+    }
+    
+    .headline h1 {
+        font-size: 2.2rem;
+        width: 100% ;
+        margin-top: -5rem;
+    }
+    
+    .headline h2 {
+        font-size: 1.5rem;
+        margin-left: 1rem ;
+        width: 90%;
+    }
+    
+    .toggle-button{
+        position: absolute;
+        right: -0.5rem;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 2.9rem;
+        height: 3rem;
+        top: -0.5rem;
+    }
+    
+    #logo{
+        margin-left: 2rem;    
+        height: 3.5rem;
+        width: 3rem;
+    }
+    
+    /* about section */
+    .body-title {
+        margin-left: -0.8rem;
+        font-size: 2rem;
+        margin-top: -9rem;
+    }
+    
+    .body-text{
+        font-size: 1.2rem ;
+        margin-left: -2.6rem;
+        text-align: center;
+        width: 120%;
+    }
+    
+    .carousel{
+        display: none;
+    }
+    
+     /* services */
+     #services-header {
+        font-size: 2.3rem;
+        margin-left: 10.5rem ;
+        margin-bottom: -3rem;
+    }
+    
+    .all-services-container{
+        height: 220rem;
+    }
+    
+    .all-services-container h3 {
+        font-size: 2.2rem;
+    }
+    
+    .all-services-container p {
+        font-size: 1.4rem;
+    }
+    
+    .individual-service-containers {
+        height: 28rem;
+    }
+    
+    #ponds-header{
+        margin-top: 6.5rem;
+        margin-left: 49%;
+    }
+    
+    #ponds-p {
+        margin: 0 0 0 -1rem;
+        width: 140%;
+        text-align: center;
+    }
+    
+    #flowerbeds-header{
+        margin-left:35%;
+        margin-top: 1.3rem;
+    }
+    
+    #flowerbeds-p{
+        margin: 0 0 0 -0.7rem;  
+        width: 140%;
+        text-align: center;
+    }
+    
+    #mowing-header{
+        margin-left: 46%;
+        margin-top: 6rem;
+    }
+    
+    #mowing-p {
+        margin: 0 0 0 -1rem;
+        width: 140%;
+        text-align: center;
+    }
+    
+    #weeding-header{
+        margin-left: 44%;
+        margin-top: 7rem;
+    }
+    
+    #weeding-p{
+    margin: 0 0 0 -0.1rem; 
+    width: 130%;
+    text-align: center;
+    }
+    
+    #maintenance-header{
+    margin-left: 33%;
+    margin-top: 7rem;
+    }
+    
+    #maintenance-p{
+    margin: 0 0 0 -0.1rem;
+    width: 130%;
+    text-align: center;
+    }
+    
+    #maintenance-container {
+        height: 31rem;
+    }
+    
+    #digging-and-clearing-header{
+    margin-left: 9rem;
+    margin-top: -1.5rem;
+    width: 100%;
+    }
+    
+    #digging-and-clearing-container {
+        height: 31rem;
+    }
+    
+    br.mobile-break {
+        display: block;
+    }
+    
+    #digging-clearing-and-span {
+        margin-left: 2rem;
+    }
+    
+    #digging-and-clearing-p{
+    margin: 0 0 0 -0.1rem;
+    width: 130%;
+    text-align: center;
+    }
+    
+    #wildlife-gardening-header{
+    margin-left: 7.5rem;
+    margin-top: 5rem;
+    }
+    
+    #wildlife-span-1 {
+        margin-left:11%;
+    }
+    
+    #wildlife-gardening-p{
+    margin: 0 0 0 -0.1rem;
+    text-align: center;
+    width: 130%;
+    }
+    
+    
+    #garden-restorations-header{
+    margin-left: 32%;
+    margin-top: -0.1rem;
+    }
+    
+    #garden-restorations-span-1 {
+        margin-left: 20%;
+    }
+    
+    #garden-restorations-p{
+    margin: 0 0 0 -0.1rem;
+    width: 130%;
+    text-align: center;
+    }
+    
+    /* other services */
+    #other-services-header{
+        margin-left: 3.5rem;
+        margin-top: 5rem;
+    }
+    
+    #other-services-header::after{
+        margin-left: 24%;
+    }
+    
+    #other-services-p {
+        text-align: center;
+        font-size: 1.4rem;
+        margin-left: 2.3rem;
+        width: 85%;
+    }
+    
+    /* contact */
+    #contact-container {
+        margin-top: 40rem ;
+        height: 61rem ;
+    }
+    
+    #flex-container {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 40rem;
+    }
+    
+    #contact-header {
+        font-size: 2.3rem;
+        margin-left: 30%;
+        margin-bottom: -10%;
+    }
+    
+    #contact-header::after {
+        margin-left: 20%;
+    }
+    
+    #email-container{
+        height: 17rem;
+        width: 19rem; 
+        margin-left: 5.6rem ;
+    }
+    
+    #email-icon{
+        width: 3rem;
+        margin-bottom: 3rem;
+        margin-top: -4.5rem;
+        margin-left:5.4rem;
+    }
+    
+    #by-email{
+        font-size: 1.6rem;
+        margin-top: -2rem;
+    }
+    
+    #email{
+        font-size: 1.2rem;
+        margin-left: -1.4rem;
+    }
+    
+    #phone-container{
+        height: 17rem;
+        width: 19rem; 
+        margin-left: 5.6rem ;
+    }
+    
+    #by-phone{
+        font-size: 1.6rem;
+        margin-left: -3rem;
+        width: 100%;
+        white-space: nowrap;
+    }
+    
+    #phone-number{
+        font-size: 1.5rem;
+        white-space: nowrap;
+        margin-left: -4.2rem;
+    }
+    
+    #phone-icon{
+        width: 3rem;
+        margin-left: -1rem;
+        margin-top: -4.5rem;
+    }
+    
+    /* faq */
+    #faqcontainer {
+        margin-left: 4.1rem;
+    }
+    #faqheader {
+        font-size: 2rem;
+        margin-left:45%;
+    }
+    
+    #faqheader::after {
+        margin-left: 8%;
+    }
+    
+    .accordion {
+        font-size: 1.2rem;
+    }
+    
+    #accordion-container{
+        margin-left: -1.7rem;
+        width: 100%;
+    }
+    
+    .accordion::before {
+        margin-left: 1.2rem;
+        width: 50%;
+    }
+    
+    #accordion-container button:nth-of-type(2)::before{
+        width: 65%;
+    }
+    
+    #accordion-container button:nth-of-type(3)::before{
+        width: 47%;
+    }
+    
+    .panel {
+        font-size: 1rem;
+    }
+    
+    .panel p{
+        padding: 0 4% 0 4%;
+        }
+    
+    #map {
+        height: 23rem ;
+        width:26rem;
+        margin: auto;
+        margin-left: 2.2rem;
+        border-radius: 20px;
+        margin-bottom: 0rem ;
+        margin-top: 2rem ;
+      }
+    
+      .map-container {
+          height: 37rem;
+      } 
+    }
+    
 
 
 
-@media(max-width: 500px) {
+/******************* MOBILE MEDIUM ************************** */
+
+
+
+
+@media(max-width: 400px) {
+
+    #wrapper {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .headline h1 {
+        font-size: 2.2rem;
+        width: 100% ;
+        margin-top: -5rem;
+    }
+    
+    .headline h2 {
+        font-size: 1.5rem;
+        margin-left: 1rem ;
+        width: 90%;
+    }
+    
+    .toggle-button{
+        position: absolute;
+        right: -0.5rem;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 2.9rem;
+        height: 3rem;
+        top: -0.5rem;
+    }
+    
+    #logo{
+        margin-left: 4rem;    
+        height: 3.5rem;
+        width: 3rem;
+    }
+    
+    /* about section */
+    .body-title {
+        margin-left: -1rem;
+        font-size: 2rem;
+        margin-top: -9rem;
+    }
+    
+    .body-text{
+        font-size: 1.2rem ;
+        margin-left: -2rem;
+        text-align: center;
+        width: 120%;
+    }
+    
+    .carousel{
+        display: none;
+    }
+    
+     /* services */
+     #services-header {
+        font-size: 2.3rem;
+        margin-left: 6.5rem ;
+        margin-bottom: -3rem;
+    }
+    
+    .all-services-container{
+        height: 220rem;
+    }
+    
+    .all-services-container h3 {
+        font-size: 2.2rem;
+    }
+    
+    .all-services-container p {
+        font-size: 1.4rem;
+    }
+    
+    .individual-service-containers {
+        height: 28rem;
+    }
+    
+    #ponds-header{
+        margin-top: 3.5rem;
+        margin-left: 49%;
+    }
+    
+    #ponds-p {
+        margin: 0 0 0 -0.3rem;
+        width: 140%;
+        text-align: center;
+    }
+    
+    #flowerbeds-header{
+        margin-left:23%;
+        margin-top: -1rem;
+    }
+    
+    #flowerbeds-p{
+        margin: 0 0 0 -0.3rem;  
+        width: 140%;
+        text-align: center;
+    }
+    
+    #mowing-header{
+        margin-left: 37%;
+        margin-top: 4rem;
+    }
+    
+    #mowing-p {
+        margin: 0 0 0 -0.1rem;
+        width: 140%;
+        text-align: center;
+    }
+    
+    #weeding-header{
+        margin-left: 34%;
+        margin-top: 5rem;
+    }
+    
+    #weeding-p{
+    margin: 0 0 0 -0.1rem; 
+    width: 140%;
+    text-align: center;
+    }
+    
+    #maintenance-header{
+    margin-left: 18%;
+    margin-top: 3.5rem;
+    }
+    
+    #maintenance-p{
+    margin: 0 0 0 -0.1rem;
+    width: 142%;
+    text-align: center;
+    }
+    
+    #maintenance-container {
+        height: 31rem;
+    }
+    
+    #digging-and-clearing-header{
+    margin-left: 5rem;
+    margin-top: -1.5rem;
+    width: 100%;
+    }
+    
+    #digging-and-clearing-container {
+        height: 31rem;
+    }
+    
+    br.mobile-break {
+        display: block;
+    }
+    
+    #digging-clearing-and-span {
+        margin-left: 2rem;
+    }
+    
+    #digging-and-clearing-p{
+    margin: 0 0 0 -0.1rem;
+    width: 140%;
+    text-align: center;
+    }
+    
+    #wildlife-gardening-header{
+    margin-left: 4rem;
+    margin-top: 4rem;
+    }
+    
+    #wildlife-span-1 {
+        margin-left:11%;
+    }
+    
+    #wildlife-gardening-p{
+    margin: 0 0 0 -1rem;
+    text-align: center;
+    width: 140%;
+    }
+    
+    
+    #garden-restorations-header{
+    margin-left: 19%;
+    margin-top: -1rem;
+    }
+    
+    #garden-restorations-span-1 {
+        margin-left: 20%;
+    }
+    
+    #garden-restorations-p{
+    margin: 0 0 0 -0.6rem;
+    width: 140%;
+    text-align: center;
+    }
+    
+    /* other services */
+    #other-services-header{
+        margin-left: 5.5rem;
+        margin-top: 5rem;
+    }
+    
+    #other-services-header::after{
+        margin-left: 14%;
+    }
+    
+    #other-services-p {
+        text-align: center;
+        font-size: 1.4rem;
+        margin-left: 1rem;
+        width: 85%;
+    }
+    
+    /* contact */
+    #contact-container {
+        margin-top: 40rem ;
+        height: 61rem ;
+    }
+    
+    #flex-container {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 40rem;
+    }
+    
+    #contact-header {
+        font-size: 2.3rem;
+        margin-left: 19%;
+        margin-bottom: -10%;
+    }
+    
+    #contact-header::after {
+        margin-left: 22%;
+    }
+    
+    #email-container{
+        height: 17rem;
+        width: 19rem; 
+        margin-left: 1.7rem ;
+    }
+    
+    #email-icon{
+        width: 3rem;
+        margin-bottom: 3rem;
+        margin-top: -4.5rem;
+        margin-left:5.4rem;
+    }
+    
+    #by-email{
+        font-size: 1.6rem;
+        margin-top: -2rem;
+    }
+    
+    #email{
+        font-size: 1.2rem;
+        margin-left: -1.4rem;
+    }
+    
+    #phone-container{
+        height: 17rem;
+        width: 19rem; 
+        margin-left: 1.7rem ;
+    }
+    
+    #by-phone{
+        font-size: 1.6rem;
+        margin-left: -3rem;
+        width: 100%;
+        white-space: nowrap;
+    }
+    
+    #phone-number{
+        font-size: 1.5rem;
+        white-space: nowrap;
+        margin-left: -4.2rem;
+    }
+    
+    #phone-icon{
+        width: 3rem;
+        margin-left: -1rem;
+        margin-top: -4.5rem;
+    }
+    
+    /* faq */
+    #faqcontainer {
+        margin-left: 2.6rem;
+    }
+    #faqheader {
+        font-size: 2rem;
+        margin-left:37%;
+    }
+    
+    #faqheader::after {
+        margin-left: 8%;
+    }
+    
+    .accordion {
+        font-size: 1.2rem;
+    }
+    
+    #accordion-container{
+        margin-left: -1.7rem;
+        width: 100%;
+    }
+    
+    .accordion::before {
+        margin-left: 1.2rem;
+        width: 50%;
+    }
+    
+    #accordion-container button:nth-of-type(2)::before{
+        width: 65%;
+    }
+    
+    #accordion-container button:nth-of-type(3)::before{
+        width: 47%;
+    }
+    
+    .panel {
+        font-size: 1rem;
+    }
+    
+    .panel p{
+        padding: 0 4% 0 4%;
+        }
+    
+    #map {
+        height: 18rem ;
+        width:18rem;
+        margin: auto;
+        margin-left: 2.2rem;
+        border-radius: 20px;
+        margin-bottom: 0rem ;
+        margin-top: 2rem ;
+      }
+    
+      .map-container {
+          height: 34rem;
+      } 
+    }
+    
+
+
+
+/* ******************  MOBILE SMALL  *********************** */
+
+
+
+@media(max-width: 360px) {
 
 #wrapper {
     width: 100%;
@@ -2227,7 +2937,7 @@ border-bottom: 2px solid var(--yellow);
 }
 
 #logo{
-    margin-left: 4rem;    
+    margin-left: 2rem;    
     height: 3.5rem;
     width: 3rem;
 }
