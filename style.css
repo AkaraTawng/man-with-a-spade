@@ -2567,11 +2567,6 @@ border-bottom: 2px solid var(--yellow);
 
 @media(max-width: 400px) {
 
-    #wrapper {
-        width: 100%;
-        overflow: hidden;
-    }
-    
     .headline h1 {
         font-size: 2.2rem;
         width: 100% ;
@@ -2621,7 +2616,7 @@ border-bottom: 2px solid var(--yellow);
      /* services */
      #services-header {
         font-size: 2.3rem;
-        margin-left: 6.5rem ;
+        margin-left: 7.8rem ;
         margin-bottom: -3rem;
     }
     
@@ -2642,7 +2637,7 @@ border-bottom: 2px solid var(--yellow);
     }
     
     #ponds-header{
-        margin-top: 3.5rem;
+        margin-top: 4.5rem;
         margin-left: 49%;
     }
     
@@ -2653,19 +2648,19 @@ border-bottom: 2px solid var(--yellow);
     }
     
     #flowerbeds-header{
-        margin-left:23%;
-        margin-top: -1rem;
+        margin-left: 30%;
+        margin-top: 0.5rem;
     }
     
     #flowerbeds-p{
-        margin: 0 0 0 -0.3rem;  
+        margin: 0 0 0 -0.1rem;  
         width: 140%;
         text-align: center;
     }
     
     #mowing-header{
-        margin-left: 37%;
-        margin-top: 4rem;
+        margin-left: 44%;
+        margin-top: 5rem;
     }
     
     #mowing-p {
@@ -2675,8 +2670,8 @@ border-bottom: 2px solid var(--yellow);
     }
     
     #weeding-header{
-        margin-left: 34%;
-        margin-top: 5rem;
+        margin-left: 37%;
+        margin-top: 5.5rem;
     }
     
     #weeding-p{
@@ -2686,8 +2681,8 @@ border-bottom: 2px solid var(--yellow);
     }
     
     #maintenance-header{
-    margin-left: 18%;
-    margin-top: 3.5rem;
+    margin-left: 25%;
+    margin-top: 5rem;
     }
     
     #maintenance-p{
@@ -2701,7 +2696,7 @@ border-bottom: 2px solid var(--yellow);
     }
     
     #digging-and-clearing-header{
-    margin-left: 5rem;
+    margin-left: 6.5rem;
     margin-top: -1.5rem;
     width: 100%;
     }
@@ -2725,7 +2720,7 @@ border-bottom: 2px solid var(--yellow);
     }
     
     #wildlife-gardening-header{
-    margin-left: 4rem;
+    margin-left: 5.5rem;
     margin-top: 4rem;
     }
     
@@ -2734,14 +2729,13 @@ border-bottom: 2px solid var(--yellow);
     }
     
     #wildlife-gardening-p{
-    margin: 0 0 0 -1rem;
+    margin: 0 0 0 -0.1rem;
     text-align: center;
     width: 140%;
     }
     
-    
     #garden-restorations-header{
-    margin-left: 19%;
+    margin-left: 25%;
     margin-top: -1rem;
     }
     
@@ -2750,14 +2744,14 @@ border-bottom: 2px solid var(--yellow);
     }
     
     #garden-restorations-p{
-    margin: 0 0 0 -0.6rem;
+    margin: 0 0 0 -0.1rem;
     width: 140%;
     text-align: center;
     }
     
     /* other services */
     #other-services-header{
-        margin-left: 5.5rem;
+        margin-left: 6.5rem;
         margin-top: 5rem;
     }
     
@@ -2768,7 +2762,7 @@ border-bottom: 2px solid var(--yellow);
     #other-services-p {
         text-align: center;
         font-size: 1.4rem;
-        margin-left: 1rem;
+        margin-left: 2rem;
         width: 85%;
     }
     
@@ -2786,18 +2780,18 @@ border-bottom: 2px solid var(--yellow);
     
     #contact-header {
         font-size: 2.3rem;
-        margin-left: 19%;
+        margin-left: 26%;
         margin-bottom: -10%;
     }
     
     #contact-header::after {
-        margin-left: 22%;
+        margin-left: 23%;
     }
     
     #email-container{
         height: 17rem;
         width: 19rem; 
-        margin-left: 1.7rem ;
+        margin-left: 3.1rem ;
     }
     
     #email-icon{
@@ -2820,7 +2814,7 @@ border-bottom: 2px solid var(--yellow);
     #phone-container{
         height: 17rem;
         width: 19rem; 
-        margin-left: 1.7rem ;
+        margin-left: 3.1rem ;
     }
     
     #by-phone{
@@ -2844,11 +2838,11 @@ border-bottom: 2px solid var(--yellow);
     
     /* faq */
     #faqcontainer {
-        margin-left: 2.6rem;
+        margin-left: 3.6rem;
     }
     #faqheader {
         font-size: 2rem;
-        margin-left:37%;
+        margin-left:43%;
     }
     
     #faqheader::after {
@@ -2887,9 +2881,9 @@ border-bottom: 2px solid var(--yellow);
     
     #map {
         height: 18rem ;
-        width:18rem;
+        width: 23rem;
         margin: auto;
-        margin-left: 2.2rem;
+        margin-left: 1rem;
         border-radius: 20px;
         margin-bottom: 0rem ;
         margin-top: 2rem ;
