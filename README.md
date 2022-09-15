@@ -34,4 +34,5 @@
 
 # What I learned? 👨‍💻
 - How to integrate Google Maps API and make a custom marker
+- Desktop first design approach is problematic. I had many issues with getting the desired responsive behaviour using media queries and spent days getting to the bottom of some of the buggy behavior. It's better to start with a simple mobile design and add complexity at larger screen sizes as opposed to making a complex desktop design first and removing bits of the UI as the screen size shrinks. 
 
