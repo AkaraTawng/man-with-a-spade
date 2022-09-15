@@ -1,5 +1,5 @@
 # Why? 🤔
-- I made this website for a local business. I wanted to practice and develop my skills in semantic HTML content structure, CSS structure, media queries, Flexbox, and JavaScript functionality. My goal was to create a fully responsive website with multiple interactive funcionalities and Google Maps API integration.
+- I made this website for a local business following client requirements. At the same time, I wanted to practice and develop my skills in semantic HTML content structure, CSS structure, media queries, Flexbox, and JavaScript functionality. My goal was to create a fully responsive website with multiple interactive funcionalities and Google Maps API integration.
 
 ---
 
