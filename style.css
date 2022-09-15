@@ -2945,7 +2945,7 @@ border-bottom: 2px solid var(--yellow);
 
 .body-text{
     font-size: 1.2rem ;
-    margin-left: -2rem;
+    margin-left: -1.8rem;
     text-align: center;
     width: 120%;
 }
@@ -2979,11 +2979,11 @@ border-bottom: 2px solid var(--yellow);
 
 #ponds-header{
     margin-top: 3.5rem;
-    margin-left: 49%;
+    margin-left: 48%;
 }
 
 #ponds-p {
-    margin: 0 0 0 -0.3rem;
+    margin: 0 0 0 0.4rem;
     width: 140%;
     text-align: center;
 }
@@ -2994,7 +2994,7 @@ border-bottom: 2px solid var(--yellow);
 }
 
 #flowerbeds-p{
-    margin: 0 0 0 -0.3rem;  
+    margin: 0 0 0 0.4rem;  
     width: 140%;
     text-align: center;
 }
@@ -3005,29 +3005,29 @@ border-bottom: 2px solid var(--yellow);
 }
 
 #mowing-p {
-    margin: 0 0 0 -0.1rem;
+    margin: 0 0 0 0.4rem;
     width: 140%;
     text-align: center;
 }
 
 #weeding-header{
-    margin-left: 34%;
+    margin-left: 35%;
     margin-top: 5rem;
 }
 
 #weeding-p{
-margin: 0 0 0 -0.1rem; 
+margin: 0 0 0 0.6rem; 
 width: 140%;
 text-align: center;
 }
 
 #maintenance-header{
-margin-left: 18%;
+margin-left: 23%;
 margin-top: 3.5rem;
 }
 
 #maintenance-p{
-margin: 0 0 0 -0.1rem;
+margin: 0 0 0 0.5rem;
 width: 142%;
 text-align: center;
 }
@@ -3037,8 +3037,8 @@ text-align: center;
 }
 
 #digging-and-clearing-header{
-margin-left: 5rem;
-margin-top: -1.5rem;
+margin-left: 5.5rem;
+margin-top: -2rem;
 width: 100%;
 }
 
@@ -3055,7 +3055,7 @@ br.mobile-break {
 }
 
 #digging-and-clearing-p{
-margin: 0 0 0 -0.1rem;
+margin: 0 0 0 0.4rem;
 width: 140%;
 text-align: center;
 }
@@ -3070,14 +3070,14 @@ margin-top: 4rem;
 }
 
 #wildlife-gardening-p{
-margin: 0 0 0 -1rem;
+margin: 0 0 0 0.6rem;
 text-align: center;
 width: 140%;
 }
 
 
 #garden-restorations-header{
-margin-left: 19%;
+margin-left: 24%;
 margin-top: -1rem;
 }
 
@@ -3086,7 +3086,7 @@ margin-top: -1rem;
 }
 
 #garden-restorations-p{
-margin: 0 0 0 -0.6rem;
+margin: 0 0 0 0.4rem;
 width: 140%;
 text-align: center;
 }
@@ -3104,7 +3104,7 @@ text-align: center;
 #other-services-p {
     text-align: center;
     font-size: 1.4rem;
-    margin-left: 1rem;
+    margin-left: 1.8rem;
     width: 85%;
 }
 
@@ -3122,18 +3122,18 @@ text-align: center;
 
 #contact-header {
     font-size: 2.3rem;
-    margin-left: 19%;
+    margin-left: 22%;
     margin-bottom: -10%;
 }
 
 #contact-header::after {
-    margin-left: 22%;
+    margin-left: 26%;
 }
 
 #email-container{
     height: 17rem;
     width: 19rem; 
-    margin-left: 1.7rem ;
+    margin-left: 1.8rem ;
 }
 
 #email-icon{
@@ -3156,7 +3156,7 @@ text-align: center;
 #phone-container{
     height: 17rem;
     width: 19rem; 
-    margin-left: 1.7rem ;
+    margin-left: 1.8rem ;
 }
 
 #by-phone{
@@ -3180,15 +3180,15 @@ text-align: center;
 
 /* faq */
 #faqcontainer {
-    margin-left: 2.6rem;
+    margin-left: 3.4rem;
 }
 #faqheader {
     font-size: 2rem;
-    margin-left:37%;
+    margin-left: 42%;
 }
 
 #faqheader::after {
-    margin-left: 8%;
+    margin-left: 9%;
 }
 
 .accordion {
@@ -3223,9 +3223,9 @@ text-align: center;
 
 #map {
     height: 18rem ;
-    width:18rem;
+    width:20rem;
     margin: auto;
-    margin-left: 2.2rem;
+    margin-left: 1.2rem;
     border-radius: 20px;
     margin-bottom: 0rem ;
     margin-top: 2rem ;
