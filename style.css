@@ -631,11 +631,11 @@ br.mobile-break{
 #faqcontainer{
     /* height: 50rem; */
     margin-top: 1rem;
-    margin-left: 6em;
+    margin-left: 7em;
 }
 
 #faqheader{
-    margin-left: 45%;
+    margin-left: 46%;
     padding-top: 6rem;
     font-size: 3rem ;
 }
@@ -647,7 +647,7 @@ br.mobile-break{
     width: 9% ;
     padding-top: 10px;
     border-bottom: 2px solid white;
-    margin-left:2.8%;
+    margin-left:1%;
 }
 
 #accordion-container{
@@ -758,7 +758,7 @@ border-bottom: 2px solid var(--yellow);
     margin: auto;
     border-radius: 20px;
     margin-bottom: 5rem;
-    margin-top: 12rem;
+    margin-top: 8rem;
   }
 
   .map-container {
